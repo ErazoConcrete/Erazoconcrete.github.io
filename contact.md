@@ -40,11 +40,14 @@ Fill out the form below with your project details. We'll review your request and
     <label for="service">Service Type *</label>
     <select id="service" name="service" required>
       <option value="">-- Select a Service --</option>
-      <option value="Concrete Driveway">Concrete Driveway</option>
-      <option value="Patio & Walkway">Patio & Walkway</option>
       <option value="Foundation Work">Foundation Work</option>
-      <option value="Repairs & Maintenance">Repairs & Maintenance</option>
-      <option value="Other">Other / Custom</option>
+      <option value="Concrete Driveway">Concrete Driveway</option>
+      <option value="Loading Dock">Loading Dock</option>
+      <option value="Concrete Slab">Concrete Slab</option>
+      <option value="Site Preparation">Site Preparation</option>
+      <option value="Parking Lot">Parking Lot</option>
+      <option value="Custom Project">Custom Project</option>
+      <option value="Other">Other</option>
     </select>
   </div>
 
@@ -67,6 +70,12 @@ Fill out the form below with your project details. We'll review your request and
   <div class="form-group">
     <label for="budget">Estimated Budget (Optional)</label>
     <input type="text" id="budget" name="budget" placeholder="e.g., $5,000 - $10,000">
+  </div>
+
+  <div class="form-group">
+    <label for="attachments">Attach Files (Optional)</label>
+    <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">Upload plans, diagrams, photos, or other documents (PDF, PNG, JPG, DOC, etc.)</p>
+    <input type="file" id="attachments" name="attachments" multiple accept=".pdf,.png,.jpg,.jpeg,.gif,.doc,.docx,.xls,.xlsx,.dwg">
   </div>
 
   <button type="submit" class="btn">Send Quote Request</button>
