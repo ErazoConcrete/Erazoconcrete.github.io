@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+<<<<<<< HEAD
 <div style="float: right; margin-left: 20px; margin-bottom: 20px; z-index: 10; position: relative;">
   <img src="/assets/LOGOTIPO%20Sien%20FONDO.jpeg" alt="Erazo Concrete Logo" style="max-height: 150px;" />
 </div>
@@ -13,6 +14,14 @@ title: Home
   <p style="margin-top: 20px;"><a href="/contact/" class="btn" style="display: inline-block;">Get Your Free Quote</a></p>
 </div>
 
+=======
+<div class="hero">
+  <h1>Commercial Foundation Specialists</h1>
+  <p>Expert Concrete Foundations for Commercial Construction</p>
+  <p style="margin-top: 20px;"><a href="/contact/" class="btn" style="display: inline-block;">Get Your Free Quote</a></p>
+</div>
+
+>>>>>>> a4e515df28d6c52cac91c7461c5e6c17d7878f1f
 ## Welcome to Erazo Concrete LLC
 
 Your trusted partner for professional commercial concrete foundations. We specialize in engineered concrete solutions that meet the highest standards.
@@ -121,4 +130,8 @@ All our foundation work is backed by a **comprehensive 1-year warranty**. We gua
 
 Start your commercial project with proven foundation expertise.
 
+<<<<<<< HEAD
 [Request Your Free Quote](/contact/){: .btn}
+=======
+[Request Your Free Quote](/contact/){: .btn}
+>>>>>>> a4e515df28d6c52cac91c7461c5e6c17d7878f1f
