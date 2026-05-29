@@ -3,35 +3,69 @@ layout: default
 title: About
 ---
 
-# About Erazo Concrete LLC
+<div class="hero">
+  <h1>About Erazo Concrete LLC</h1>
+  <p>Professional Concrete Services with a Commitment to Excellence</p>
+</div>
 
 ## Our Story
 
-Erazo Concrete LLC is a professional concrete service provider dedicated to delivering high-quality craftsmanship and exceptional customer service.
+Erazo Concrete LLC is a professional concrete contractor dedicated to delivering exceptional craftsmanship and customer satisfaction. With years of experience in residential and commercial concrete work, we've built a reputation for quality, reliability, and attention to detail.
 
-## Our Commitment
+## Who We Are
 
-We are committed to:
+We're a team of skilled concrete professionals passionate about transforming outdoor spaces. From durable driveways to stunning patios, we approach every project with professionalism and pride in our work.
 
-- **Quality Work** - Every project is completed to the highest standards
-- **Professional Service** - Expert knowledge and courteous communication
-- **Competitive Pricing** - Fair and transparent pricing for all services
-- **Reliability** - On-time project completion and honoring all commitments
+## Our Mission
 
-## Experience
+To provide high-quality concrete solutions that enhance the beauty and functionality of our clients' properties while exceeding their expectations every time.
 
-With years of experience in the concrete industry, our team brings expertise to every project, from small residential work to large commercial applications.
+## Our Core Values
+
+- **Quality First** - We never compromise on materials or craftsmanship
+- **Customer Focused** - Your satisfaction is our top priority
+- **Professional** - Reliable, punctual, and detail-oriented service
+- **Transparent** - Honest communication and fair pricing
+- **Excellence** - We strive to exceed expectations on every project
+
+## What We Offer
+
+<div class="services-grid">
+  <div class="service-card">
+    <h3>Residential Concrete</h3>
+    <p>Driveways, patios, walkways, and custom solutions for your home.</p>
+  </div>
+  <div class="service-card">
+    <h3>Commercial Work</h3>
+    <p>Professional concrete solutions for businesses and commercial properties.</p>
+  </div>
+  <div class="service-card">
+    <h3>Repairs & Maintenance</h3>
+    <p>Concrete restoration and maintenance to extend the life of your surfaces.</p>
+  </div>
+</div>
 
 ## Why Choose Us?
 
-- Licensed and experienced professionals
-- High-quality materials and equipment
-- Attention to detail
-- Customer satisfaction guaranteed
-- Free consultations and quotes
+✓ Years of professional experience  
+✓ Licensed and insured  
+✓ Free professional consultation  
+✓ Competitive, transparent pricing  
+✓ High-quality materials  
+✓ Professional team  
+✓ On-time project completion  
+✓ Satisfaction guaranteed  
 
----
+## Client Testimonials
 
-## Let's Work Together
+> "Outstanding work and excellent customer service. Highly recommended!" - *Satisfied Homeowner*
 
-Have questions about our services? [Get in touch](/contact/) with our team today!
+> "Professional, reliable, and attention to detail. Will definitely use again!" - *Business Owner*
+
+> "The best concrete contractor in the area. Great quality and fair pricing." - *Long-time Client*
+
+## Ready to Work Together?
+
+Get started with a free consultation and professional quote.
+
+[Contact Us Today](/contact/){: .btn}
