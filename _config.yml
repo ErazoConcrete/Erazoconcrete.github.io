@@ -1,0 +1,28 @@
+# Jekyll Configuration for Erazo Concrete LLC
+
+title: Erazo Concrete LLC
+description: Professional concrete services and solutions
+url: https://erazo-concrete.com
+baseurl: 
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name/
+
+# Permalink settings
+permalink: /:title/
+
+# Exclude from build
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
