@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<div style="float: right; margin-left: 20px; margin-bottom: 20px; z-index: 10; position: relative;">
+  <img src="/assets/LOGOTIPO%20Sien%20FONDO.jpeg" alt="Erazo Concrete Logo" style="max-height: 150px;" />
+</div>
+
 <div class="hero">
   <h1>Commercial Foundation Specialists</h1>
   <p>Expert Concrete Foundations for Commercial Construction</p>

@@ -1,0 +1,110 @@
+---
+---
+
+// Overriding Minima theme colors. 
+// Replace the hex codes below with the specific colors from your picture.
+$brand-color: #e25822 !default; // Example rust/orange color
+$text-color: #333333 !default; // Standard dark text color
+
+@import "minima";
+
+// --- Custom Styles for Erazo Concrete ---
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: $brand-color;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: darken($brand-color, 10%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: $brand-color !important;
+  border: 2px solid $brand-color;
+  
+  &:hover {
+    background-color: $brand-color;
+    color: #ffffff !important;
+  }
+}
+
+// Hero Section
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), #333333; 
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  animation: fadeDown 1s ease-out;
+
+  h1 { color: white; margin-bottom: 15px; }
+  p { font-size: 1.2rem; color: #eeeeee; }
+}
+
+// Grids for Services and Projects
+.services-grid, .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+// Cards with Hover Movement
+.service-card, .project-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  border: 1px solid #eaeaea;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  }
+
+  h3 { margin-top: 15px; }
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+// Scroll Animations (Modern CSS feature)
+@keyframes fadeReveal {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@supports (animation-timeline: view()) {
+  .service-card, .project-card {
+    animation: fadeReveal linear both;
+    animation-timeline: view();
+    animation-range: entry 5% cover 25%;
+  }
+}
+
+// Initial Page Load Animation
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
