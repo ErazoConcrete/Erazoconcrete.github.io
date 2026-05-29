@@ -2,6 +2,9 @@
 
 title: Erazo Concrete LLC
 description: Professional concrete services and solutions
+author: Erazo Concrete LLC
+email: info@erazoconcrete.com
+phone: (555) 123-4567
 url: https://erazo-concrete.com
 baseurl: 
 
@@ -9,12 +12,16 @@ baseurl:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Collections
 collections:
   services:
     output: true
-    permalink: /:collection/:name/
+    permalink: /services/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 # Permalink settings
 permalink: /:title/
@@ -26,3 +33,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - README.md

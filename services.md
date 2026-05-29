@@ -3,32 +3,33 @@ layout: default
 title: Services
 ---
 
-# Our Services
+<div class="hero">
+  <h1>Commercial Concrete Solutions</h1>
+  <p>Professional Services for Commercial Projects</p>
+</div>
 
-Erazo Concrete LLC provides a full range of professional concrete services for residential and commercial projects.
+At Erazo Concrete LLC, we specialize in commercial-grade concrete work with professional craftsmanship and engineering expertise.
 
-## Concrete Driveways
+<div class="services-grid">
+  {% for service in site.services %}
+    <div class="service-card">
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.content | strip_html | truncatewords: 20 }}</p>
+      <a href="{{ service.url }}" class="btn">Learn More</a>
+    </div>
+  {% endfor %}
+</div>
 
-Professional installation and finishing of durable concrete driveways that withstand heavy use and harsh weather conditions.
+## Why Choose Erazo Concrete?
 
-## Patios & Walkways
+- **Engineering Expertise** - Engineered solutions meeting all building codes
+- **Professional Team** - Commercial concrete specialists
+- **Quality Materials** - Premium concrete and finishes
+- **Competitive Pricing** - Fair prices for commercial projects
+- **Reliable Delivery** - On-time project completion
+- **1-Year Warranty** - All work backed by comprehensive warranty
+- **Free Consultation** - Professional assessment at no cost
 
-Create beautiful outdoor living spaces with custom concrete patios, walkways, and entertainment areas.
+## Ready to Get Started?
 
-## Foundation Work
-
-Expert foundation installation and repair services for new construction and existing structures.
-
-## Repairs & Maintenance
-
-Concrete restoration, crack repair, sealing, and maintenance to extend the life of your concrete surfaces.
-
-## Custom Solutions
-
-We work with you to design and build custom concrete solutions tailored to your specific needs.
-
----
-
-## Ready to Start Your Project?
-
-[Contact us today](/contact/) for a free consultation and detailed quote.
+[Request a Free Quote](/contact/){: .btn}
