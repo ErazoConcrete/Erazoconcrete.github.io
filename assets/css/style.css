@@ -412,25 +412,48 @@ li {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Hero Section */
+/* Hero Section (modified: remove secondary blue banner and size down logo) */
 .hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #1a252f 100%);
-  color: var(--white);
-  padding: 60px 0;
+  background: transparent;
+  color: var(--text-color);
+  padding: 40px 0;
   text-align: center;
-  margin: -60px 0 40px 0;
+  margin: 0 0 40px 0;
+  position: relative;
 }
 
 .hero h1 {
-  color: var(--white);
+  color: var(--primary-color);
   margin-bottom: 20px;
   border: none;
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.2em;
-  margin-bottom: 30px;
+  color: var(--text-color);
+  font-size: 1.05em;
+  margin-bottom: 20px;
+}
+
+/* Shrink and position the hero/logo image */
+.hero-logo {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  width: 110px;
+  height: auto;
+  z-index: 3;
+}
+
+.hero-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 30px;
 }
 
 /* Responsive Design */
