@@ -59,10 +59,12 @@ html, body {
   gap: 16px;
 }
 
-.site-logo {
-  max-height: 56px;
-  width: auto;
-  display: block;
+.site-header .site-logo,
+.site-header .site-logo-link img {
+  height: 44px !important;
+  width: auto !important;
+  display: block !important;
+  max-width: 160px !important;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
