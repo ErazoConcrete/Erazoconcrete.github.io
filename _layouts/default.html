@@ -10,9 +10,14 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="header-content">
-        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p class="site-tagline">{{ site.description }}</p>
+      <div class="header-content site-brand">
+        <a href="{{ '/' | relative_url }}" class="site-logo-link">
+          <img src="/assets/LOGOTIPO%20Sien%20FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo">
+        </a>
+        <div>
+          <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+          <p class="site-tagline">{{ site.description }}</p>
+        </div>
       </div>
       <nav class="site-nav">
         <ul class="nav-list">

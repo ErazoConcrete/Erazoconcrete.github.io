@@ -4,9 +4,6 @@ title: Home
 ---
 
 <div class="hero">
-  <div class="hero-logo">
-    <img src="/assets/LOGOTIPO%20Sien%20FONDO.jpeg" alt="Erazo Concrete Logo" />
-  </div>
   <div class="hero-content">
     <h1>Commercial Foundation Specialists</h1>
     <p>Expert Concrete Foundations for Commercial Construction</p>

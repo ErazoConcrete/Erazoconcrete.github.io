@@ -1,11 +1,11 @@
 /* Erazo Concrete LLC - Professional Styling */
 
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #e74c3c;
-  --light-bg: #ecf0f1;
-  --text-color: #2c3e50;
-  --text-light: #7f8c8d;
+  --primary-color: #4a8cc7;
+  --accent-color: #c59b27;
+  --light-bg: #f0f4fb;
+  --text-color: #263844;
+  --text-light: #6b7d95;
   --white: #ffffff;
   --border-radius: 8px;
   --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -32,17 +32,82 @@ html, body {
 
 /* Header & Navigation */
 .site-header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #1a252f 100%);
-  color: var(--white);
-  padding: 30px 0;
-  box-shadow: var(--shadow);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  background: linear-gradient(135deg, #3f7bb7 0%, #4a8cc7 100%);
+  color: var(--white) !important;
+  padding: 24px 0 !important;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.12) !important;
+  position: relative !important;
+  top: auto !important;
+  z-index: 10 !important;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .header-content {
-  margin-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-logo {
+  width: 72px;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.site-title a {
+  color: var(--white);
+}
+
+.site-tagline {
+  color: rgba(255,255,255,0.85);
+}
+
+.site-nav {
+  margin-top: 0;
+}
+
+.nav-link {
+  color: var(--white);
+}
+
+.nav-link--cta {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+/* Hero Section (modified: remove secondary blue banner and size down logo) */
+.hero {
+  background: linear-gradient(135deg, rgba(74, 140, 199, 0.12), rgba(197, 155, 39, 0.08));
+  color: var(--text-color);
+  padding: 40px 0;
+  text-align: center;
+  margin: 0 0 40px 0 !important;
+  position: relative !important;
+}
+
+.hero h1 {
+  color: #1f4d75;
+}
+
+.hero p {
+  color: var(--text-color);
+}
+
+.hero-logo {
+  display: none !important;
 }
 
 .site-title {
@@ -51,18 +116,18 @@ html, body {
 }
 
 .site-title a {
-  color: var(--white);
+  color: var(--primary-color);
   text-decoration: none;
   transition: opacity 0.3s ease;
 }
 
 .site-title a:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .site-tagline {
   font-size: 0.95em;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-light);
   margin: 0;
 }
 
@@ -78,7 +143,7 @@ html, body {
 }
 
 .nav-link {
-  color: var(--white);
+  color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -414,12 +479,12 @@ li {
 
 /* Hero Section (modified: remove secondary blue banner and size down logo) */
 .hero {
-  background: transparent;
-  color: var(--text-color);
-  padding: 40px 0;
+  background: transparent !important;
+  color: var(--text-color) !important;
+  padding: 40px 0 !important;
   text-align: center;
-  margin: 0 0 40px 0;
-  position: relative;
+  margin: 0 0 40px 0 !important;
+  position: relative !important;
 }
 
 .hero h1 {
@@ -436,12 +501,12 @@ li {
 
 /* Shrink and position the hero/logo image */
 .hero-logo {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  width: 110px;
-  height: auto;
-  z-index: 3;
+  position: absolute !important;
+  top: 12px !important;
+  left: 20px !important;
+  width: 80px !important;
+  height: auto !important;
+  z-index: 3 !important;
 }
 
 .hero-logo img {
@@ -490,7 +555,7 @@ li {
 
   .hero {
     padding: 40px 0;
-    margin: -60px 0 30px 0;
+    margin: 0 0 30px 0;
   }
 }
 
