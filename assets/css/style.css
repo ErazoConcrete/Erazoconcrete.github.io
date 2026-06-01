@@ -34,7 +34,7 @@ html, body {
 .site-header {
   background: linear-gradient(135deg, #3f7bb7 0%, #4a8cc7 100%);
   color: var(--white) !important;
-  padding: 16px 0 !important;
+  padding: 24px 0 24px 0 !important;
   box-shadow: 0 1px 8px rgba(0,0,0,0.12) !important;
   position: relative !important;
   top: auto !important;
@@ -82,11 +82,17 @@ html, body {
 }
 
 .nav-link {
-  color: var(--white);
+  color: rgba(255,255,255,0.95);
+  font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ffffff;
 }
 
 .nav-link--cta {
-  background-color: var(--accent-color);
+  background-color: rgba(197, 155, 39, 0.95);
   color: var(--white);
 }
 
