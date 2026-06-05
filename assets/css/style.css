@@ -62,10 +62,10 @@ html, body {
 
 .site-header .site-logo,
 .site-header .site-logo-link img {
-  height: 58px;
+  height: 78px;
   width: auto;
   display: block;
-  max-width: 170px;
+  max-width: 210px;
   border-radius: 14px;
   box-shadow: 0 10px 24px rgba(34, 51, 70, 0.08);
 }

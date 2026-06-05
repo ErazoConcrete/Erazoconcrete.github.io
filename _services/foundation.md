@@ -1,17 +1,24 @@
 ---
 layout: default
-title: Foundation Work
+title: Commercial Installation
 category: foundation
 ---
 
 <div class="hero">
-  <h1>🏗️ Professional Commercial Foundation Work</h1>
-  <p>Strong Foundations for Strong Projects</p>
+  <h1>Commercial Installation</h1>
+  <p>Concrete installations that keep your project moving forward.</p>
 </div>
 
-## Expert Foundation Solutions
+## Commercial Installation Solutions
 
-Your building's foundation is its most critical element. We provide professional engineered concrete foundation work and support for commercial construction projects.
+Your building's foundation is its most critical element. We provide engineered concrete installation work and support for commercial construction projects.
+
+<div class="image-gallery">
+  <img src="/assets/images/foundations/06-05-2026 10-15-26.jpeg" alt="Commercial installation">
+  <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.10.jpeg" alt="Commercial foundation project">
+  <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.31.19 (1).jpeg" alt="Commercial installation work">
+  <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.42.06 (1).jpeg" alt="Commercial construction installation">
+</div>
 
 ### Foundation Services
 

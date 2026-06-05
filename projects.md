@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Our Projects
+title: Our Work
 ---
 
 <div class="hero">
-  <h1>Project Portfolio</h1>
-  <p>Showcase of Our Professional Concrete Work</p>
+  <h1>Our Work</h1>
+  <p>Showcase of our pours and completed concrete projects</p>
 </div>
 
 Browse our portfolio of completed projects. Each project demonstrates our commitment to quality, attention to detail, and customer satisfaction.
@@ -32,6 +32,6 @@ Browse our portfolio of completed projects. Each project demonstrates our commit
 
 ## Ready to Start Your Project?
 
-Let us bring your vision to life with professional concrete work.
+Let us bring your vision to life with reliable concrete work.
 
 [Get Your Free Quote](/contact/){: .btn}

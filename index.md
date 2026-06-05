@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <div class="hero-content">
     <h1>Commercial Concrete Solutions</h1>
-    <p>Professional concrete services for commercial projects, built on reliability, quality, and consistent delivery.</p>
+    <p>We keep projects moving with clear communication and focused execution from start to finish.</p>
     <div class="hero-actions">
       <a href="/contact/" class="btn">Get Your Free Quote</a>
       <a href="/services/" class="btn btn-secondary">View Services</a>
@@ -15,57 +15,42 @@ title: Home
 
   <div class="hero-options">
     <div class="hero-option">
-      <h3>Foundations</h3>
-      <p>Concrete foundations for commercial and industrial buildings.</p>
+      <h3>Commercial Installation</h3>
+      <p>Concrete work for commercial construction, slabs, and foundations.</p>
     </div>
     <div class="hero-option">
-      <h3>Industrial Concrete</h3>
-      <p>Concrete solutions for industrial, commercial, and infrastructure projects.</p>
-    </div>
-    <div class="hero-option">
-      <h3>Driveways & Access</h3>
-      <p>Commercial concrete paving and site access solutions.</p>
+      <h3>Residential Projects</h3>
+      <p>Patios, walkways, and exterior residential concrete surfaces.</p>
     </div>
   </div>
 </div>
 
 <section class="section-intro">
-  <h2>Professional Concrete Services</h2>
-  <p>Erazo Concrete provides expert concrete work for commercial projects, with a focus on quality, efficiency, and client satisfaction.</p>
+  <h2>Keep your project on schedule</h2>
+  <p>We push through project milestones and maintain open communication with clients so every job stays on track.</p>
 </section>
 
-## Our Core Services
+## Services
 
 <div class="services-grid">
   <div class="service-card">
     <div class="image-gallery">
-      <img src="/assets/images/foundations/06-05-2026 10-15-26.jpeg" alt="Foundations work">
-      <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.10.jpeg" alt="Foundations project">
-      <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.16.jpeg" alt="Concrete foundations">
-      <img src="/assets/images/foundations/WhatsApp Image 2026-06-04 at 15.34.59.jpeg" alt="Foundation installation">
+      <img src="/assets/images/foundations/06-05-2026 10-15-26.jpeg" alt="Commercial installation">
+      <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.10.jpeg" alt="Commercial installation project">
+      <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.31.19 (1).jpeg" alt="Commercial installation work">
+      <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.42.06 (1).jpeg" alt="Commercial construction installation">
     </div>
-    <h3>Foundations</h3>
-    <p>Concrete foundation work for commercial buildings and construction projects.</p>
+    <h3>Commercial Installation</h3>
+    <p>Concrete installations for commercial construction and industrial structures.</p>
     <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
   </div>
   <div class="service-card">
     <div class="image-gallery">
-      <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.31.19 (1).jpeg" alt="Industrial concrete">
-      <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.42.06 (1).jpeg" alt="Industrial installation">
-      <img src="/assets/images/industrial/WhatsApp Image 2026-06-02 at 15.48.36 (3).jpeg" alt="Concrete work">
-      <img src="/assets/images/industrial/WhatsApp Image 2026-06-02 at 16.23.25.jpeg" alt="Industrial project">
+      <img src="/assets/images/driveways/IMG_0366.jpg" alt="Residential project patio">
+      <img src="/assets/images/driveways/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Residential walkway">
     </div>
-    <h3>Industrial Concrete</h3>
-    <p>Concrete solutions for industrial and commercial applications.</p>
-    <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
-  </div>
-  <div class="service-card">
-    <div class="image-gallery">
-      <img src="/assets/images/driveways/IMG_0366.jpg" alt="Driveway work">
-      <img src="/assets/images/driveways/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Paved driveway">
-    </div>
-    <h3>Driveways & Access</h3>
-    <p>Commercial concrete paving and site access areas.</p>
+    <h3>Residential Projects</h3>
+    <p>Patios, walkways, and residential concrete surfaces designed for long-term use.</p>
     <a href="/services/driveways/" class="btn btn-secondary">Learn More</a>
   </div>
 </div>
@@ -74,7 +59,7 @@ title: Home
   <div class="quote-panel-content">
     <span class="label">Get Started</span>
     <h2>Request your free quote</h2>
-    <p>Submit your project details for a professional estimate and project review.</p>
+    <p>Submit your project details for an estimate and project review.</p>
     <div class="quote-panel-actions">
       <a href="/contact/" class="btn">Get a Free Quote</a>
     </div>
@@ -83,12 +68,12 @@ title: Home
 
 <section class="trust-grid">
   <div class="trust-card">
-    <h3>Quality Workmanship</h3>
-    <p>Professional concrete installation with attention to detail and code compliance on every project.</p>
+    <h3>Project Momentum</h3>
+    <p>We keep work moving and resolve issues quickly so your schedule stays on track.</p>
   </div>
   <div class="trust-card">
-    <h3>Reliable Partnership</h3>
-    <p>Dependable service from project start to completion with clear communication and transparent pricing.</p>
+    <h3>Client Communication</h3>
+    <p>Regular updates and clear project coordination keep everyone aligned throughout the job.</p>
   </div>
   <div class="trust-card">
     <h3>Warranty Coverage</h3>

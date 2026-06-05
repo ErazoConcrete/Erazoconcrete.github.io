@@ -1,33 +1,38 @@
 ---
 layout: default
-title: Concrete Driveways
+title: Residential Projects
 category: driveway
 ---
 
 <div class="hero">
-  <h1>🏗️ Professional Concrete Driveways</h1>
-  <p>Durable, Beautiful, Built to Last</p>
+  <h1>Residential Projects</h1>
+  <p>Concrete patios, walkways, and exterior surfaces built to keep projects on pace.</p>
 </div>
 
-## About Our Driveway Service
+## Residential Projects Overview
 
-Your driveway is one of the first impressions of your home. Our team specializes in creating stunning, long-lasting concrete driveways that combine durability with aesthetic appeal.
+We provide concrete patios, walkways, and exterior surfaces that support project momentum and long-term use.
+
+<div class="image-gallery">
+  <img src="/assets/images/driveways/IMG_0366.jpg" alt="Residential project patio">
+  <img src="/assets/images/driveways/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Residential walkway">
+</div>
 
 ### What We Offer
 
-- **New Driveway Installation** - Custom-designed driveways tailored to your home's style
-- **Durable Concrete Mix** - Premium concrete blend for maximum longevity
-- **Professional Finishing** - Smooth, attractive finishes that enhance curb appeal
-- **Proper Drainage** - Engineered to handle water runoff and prevent damage
-- **Seal Coating** - Protective coating to extend driveway life
+- **Patio and Walkway Installation** - Custom-designed exterior spaces and pathways
+- **Durable Concrete Mix** - Premium concrete blend for long-lasting outdoor surfaces
+- **Consistent Finishing** - Smooth, attractive finishes for strong site performance
+- **Proper Drainage** - Engineered to handle runoff and preserve surface integrity
+- **Surface Protection** - Protective treatments to extend service life
 
-### Benefits of Professional Installation
+### Benefits of Quality Installation
 
-✓ Expert craftsmanship and precision  
-✓ Proper grading and drainage design  
-✓ Quality materials and workmanship  
-✓ 10+ year durability guarantee  
-✓ Cost-effective long-term investment  
+✓ Skilled craftsmanship and reliable sequencing  
+✓ Proper grading and drainage planning  
+✓ Quality materials and long-term performance  
+✓ Durable finishes for ongoing use  
+✓ Strong support for project timelines  
 
 ## Process
 
@@ -37,6 +42,6 @@ Your driveway is one of the first impressions of your home. Our team specializes
 4. **Finishing** - Professional finishing for smooth, attractive surface
 5. **Curing** - Proper curing time for maximum strength
 
-## Ready to Transform Your Driveway?
+## Ready to Transform Your Exterior Surfaces?
 
 [Get a Free Quote](/contact/){: .btn}
