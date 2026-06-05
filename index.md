@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <div class="hero-content">
     <h1>Concrete Solutions</h1>
-    <p>Professional commercial concrete solutions focused on quality, durability, and on-time project execution.</p>
+    <p>Commercial concrete solutions focused on quality, durability, and on-time project execution.</p>
     <div class="hero-actions">
       <a href="/contact/" class="btn">Request Quote</a>
       <a href="#services" class="btn btn-secondary">View Services</a>

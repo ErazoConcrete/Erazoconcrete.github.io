@@ -1,4 +1,4 @@
-/* Erazo Concrete LLC - Professional Styling */
+/* Erazo Concrete LLC - Styling */
 
 :root {
   --primary-color: #1a365d;
@@ -1102,6 +1102,69 @@ li {
   font-weight: 600;
 }
 
+.theme-option.active::before {
+  content: "✓ ";
+}
+
+/* =========================================================================
+   CORPORATE / UTILITARIAN OVERRIDES (Craigslist Style / Brutalist)
+   ========================================================================= */
+:root {
+  --primary-color: #000066;
+  --accent-color: #0000ee;
+  --light-bg: #f4f4f4;
+  --text-color: #000000;
+  --text-light: #333333;
+  --white: #ffffff;
+}
+
+[data-theme="dark"] {
+  --primary-color: #ffffff;
+  --accent-color: #66b3ff;
+  --light-bg: #222222;
+  --text-color: #eeeeee;
+  --text-light: #cccccc;
+  --white: #000000;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+* {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+a {
+  text-decoration: underline !important;
+  color: var(--accent-color) !important;
+}
+
+.btn, .nav-link--cta {
+  border: 1px solid var(--text-color) !important;
+  background: var(--light-bg) !important;
+  color: var(--text-color) !important;
+  text-decoration: none !important;
+  padding: 6px 12px !important;
+  font-weight: bold !important;
+}
+
+.btn:hover, .nav-link--cta:hover {
+  background: var(--text-light) !important;
+  color: var(--white) !important;
+}
+
+.site-header {
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.hero, .cta-section, .feature-section, .testimonial-card, .quote-panel, .trust-card, .service-card, .project-card, .content-panel, .contact-card {
+  background: var(--white) !important;
+  border: 1px solid #cccccc !important;
+}
 /* Dark Mode Styles */
 [data-theme="dark"] {
   --primary-color: #e0e6ed;
