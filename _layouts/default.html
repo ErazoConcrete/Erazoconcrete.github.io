@@ -56,24 +56,28 @@
       const themeOptions = document.querySelectorAll('.theme-option');
       
       if (themeToggle) {
+        const themeMenu = themeToggle.querySelector('.theme-menu');
+        
         themeToggle.addEventListener('click', function(e) {
           e.stopPropagation();
-          const menu = this.querySelector('.theme-menu');
-          menu.classList.toggle('active');
+          themeMenu.classList.toggle('active');
         });
 
-        document.addEventListener('click', function() {
-          document.querySelectorAll('.theme-menu').forEach(menu => menu.classList.remove('active'));
+        document.addEventListener('click', function(e) {
+          if (!themeToggle.contains(e.target)) {
+            themeMenu.classList.remove('active');
+          }
         });
 
         themeOptions.forEach(option => {
           option.addEventListener('click', function(e) {
             e.preventDefault();
+            e.stopPropagation();
             const theme = this.getAttribute('data-theme');
             const themeToApply = theme === 'system' ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : theme;
             document.documentElement.setAttribute('data-theme', themeToApply);
             localStorage.setItem('theme', theme);
-            document.querySelector('.theme-menu').classList.remove('active');
+            themeMenu.classList.remove('active');
             updateActiveTheme();
           });
         });
