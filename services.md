@@ -5,13 +5,13 @@ title: Services
 
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1>Commercial Concrete Services</h1>
-    <p>Clear, professional service offerings for developers, contractors, and commercial construction teams.</p>
+    <h1>Our Services</h1>
+    <p>Professional concrete services for commercial and industrial projects.</p>
   </div>
 </section>
 
 <section class="content-panel">
-  <p>Erazo Concrete focuses on commercial-grade concrete work with a disciplined approach to quality, cost, and schedule. Our service portfolio is built for buildings, industrial sites, and infrastructure projects.</p>
+  <p>Erazo Concrete provides commercial concrete services with a focus on quality, cost-effectiveness, and project delivery. We work on foundations, industrial installations, and commercial paving projects.</p>
 </section>
 
 <div class="services-grid">
@@ -26,17 +26,17 @@ title: Services
 
 <section class="content-row">
   <div class="content-panel">
-    <h2>Why Choose Erazo Concrete?</h2>
+    <h2>Why Choose Us</h2>
     <ul>
-      <li>Engineering expertise aligned with commercial needs</li>
-      <li>Premium materials and code-compliant installation</li>
-      <li>Transparent pricing and dependable delivery</li>
-      <li>Warranty-backed work for long-term confidence</li>
+      <li>Professional concrete installation</li>
+      <li>Code-compliant work and quality materials</li>
+      <li>Transparent pricing</li>
+      <li>Warranty protection on all work</li>
     </ul>
   </div>
   <div class="content-panel">
-    <h2>Project Support</h2>
-    <p>From site evaluation through finishing, we provide clear communication, progress updates, and professional execution on every concrete job.</p>
+    <h2>Our Process</h2>
+    <p>We provide professional service from initial consultation through project completion, with clear communication and reliable execution.</p>
   </div>
 </section>
 

@@ -13,18 +13,17 @@ title: Contact
 <div class="contact-grid">
   <div class="contact-card">
     <h2>Request a Quote</h2>
-    <p>Tell us about your commercial project and receive a responsive, tailored proposal.</p>
-    <a href="#contact-form" class="btn">Request a Quote</a>
+    <p>Submit your project details using the form below for a professional estimate.</p>
   </div>
   <div class="contact-card">
     <h2>Phone</h2>
     <p><a href="tel:+11234567890">(123) 456-7890</a></p>
-    <p>Available Monday through Friday for project consultations.</p>
+    <p>Available for project inquiries and consultations.</p>
   </div>
   <div class="contact-card">
     <h2>Email</h2>
     <p><a href="mailto:info@erazoconcrete.com">info@erazoconcrete.com</a></p>
-    <p>Best for sending project documents, scope outlines, and site details.</p>
+    <p>Contact for project inquiries and information requests.</p>
   </div>
 </div>
 
@@ -32,7 +31,7 @@ title: Contact
   <div class="content-panel">
     <h2>Office Location</h2>
     <p>1234 Concrete Lane<br>City, State 12345</p>
-    <p>Meetings and site reviews are available by appointment to keep your project moving efficiently.</p>
+    <p>Appointments available for project consultations and site reviews.</p>
   </div>
 
   <div class="content-panel" id="contact-form">

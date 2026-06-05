@@ -5,33 +5,33 @@ title: Home
 
 <div class="hero">
   <div class="hero-content">
-    <h1>Commercial Concrete with Precision and Performance</h1>
-    <p>Erazo Concrete brings strong, dependable foundations to developers, contractors, and commercial construction teams with a refined, corporate approach.</p>
+    <h1>Commercial Concrete Solutions</h1>
+    <p>Professional concrete services for commercial projects, built on reliability, quality, and consistent delivery.</p>
     <div class="hero-actions">
       <a href="/contact/" class="btn">Get Your Free Quote</a>
-      <a href="/services/" class="btn btn-secondary">Explore Services</a>
+      <a href="/services/" class="btn btn-secondary">View Services</a>
     </div>
   </div>
 
   <div class="hero-options">
     <div class="hero-option">
-      <h3>Commercial Foundations</h3>
-      <p>Engineered slabs, footings, and grade beams for large-scale buildings.</p>
+      <h3>Foundations</h3>
+      <p>Concrete foundations for commercial and industrial buildings.</p>
     </div>
     <div class="hero-option">
       <h3>Industrial Concrete</h3>
-      <p>Heavy-duty concrete systems for warehouses, manufacturing, and logistics centers.</p>
+      <p>Concrete solutions for industrial, commercial, and infrastructure projects.</p>
     </div>
     <div class="hero-option">
-      <h3>Access & Driveways</h3>
-      <p>Durable driveways and service access areas engineered for continuous use.</p>
+      <h3>Driveways & Access</h3>
+      <p>Commercial concrete paving and site access solutions.</p>
     </div>
   </div>
 </div>
 
 <section class="section-intro">
-  <h2>Clear, smarter construction support</h2>
-  <p>We remove clutter and keep the homepage focused on what matters most: strong foundations, reliable delivery, and a fast path to your free quote.</p>
+  <h2>Professional Concrete Services</h2>
+  <p>Erazo Concrete provides expert concrete work for commercial projects, with a focus on quality, efficiency, and client satisfaction.</p>
 </section>
 
 ## Our Core Services
@@ -40,51 +40,50 @@ title: Home
   <div class="service-card">
     <div class="service-icon">🏗️</div>
     <h3>Foundations</h3>
-    <p>Commercial foundation systems designed for structural performance and long-term reliability.</p>
-    <a href="/services/foundation/" class="btn btn-secondary">View Details</a>
+    <p>Concrete foundation work for commercial buildings and construction projects.</p>
+    <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
   </div>
   <div class="service-card">
     <div class="service-icon">🏭</div>
     <h3>Industrial Concrete</h3>
-    <p>Robust concrete solutions for manufacturing, storage, and industrial park development.</p>
-    <a href="/services/foundation/" class="btn btn-secondary">View Details</a>
+    <p>Concrete solutions for industrial and commercial applications.</p>
+    <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
   </div>
   <div class="service-card">
     <div class="service-icon">🛣️</div>
     <h3>Driveways & Access</h3>
-    <p>Commercial-grade access paving and loading area surfaces built for heavy traffic.</p>
-    <a href="/services/driveways/" class="btn btn-secondary">View Details</a>
+    <p>Commercial concrete paving and site access areas.</p>
+    <a href="/services/driveways/" class="btn btn-secondary">Learn More</a>
   </div>
 </div>
 
 <section class="quote-panel">
   <div class="quote-panel-content">
-    <span class="label">Free Project Consultation</span>
-    <h2>Request your free quote in a few simple steps</h2>
-    <p>Submit your project details and our team will respond quickly with a clear cost estimate, schedule outlook, and scope recommendations.</p>
+    <span class="label">Get Started</span>
+    <h2>Request your free quote</h2>
+    <p>Submit your project details for a professional estimate and project review.</p>
     <div class="quote-panel-actions">
       <a href="/contact/" class="btn">Get a Free Quote</a>
-      <a href="/contact/" class="btn btn-secondary">Contact Our Team</a>
     </div>
   </div>
 </section>
 
 <section class="trust-grid">
   <div class="trust-card">
-    <h3>Modern, corporate presentation</h3>
-    <p>Designed to appeal to developers, contractors, and construction executives with a clean visual experience.</p>
+    <h3>Quality Workmanship</h3>
+    <p>Professional concrete installation with attention to detail and code compliance on every project.</p>
   </div>
   <div class="trust-card">
-    <h3>Streamlined service focus</h3>
-    <p>Only the most relevant commercial concrete services are shown front and center, with fewer distractions.</p>
+    <h3>Reliable Partnership</h3>
+    <p>Dependable service from project start to completion with clear communication and transparent pricing.</p>
   </div>
   <div class="trust-card">
-    <h3>Reliable execution</h3>
-    <p>One-year warranty coverage, code-compliant installation, and a dependable partner for your next project.</p>
+    <h3>Warranty Coverage</h3>
+    <p>All work is backed by warranty protection for lasting confidence in your investment.</p>
   </div>
 </section>
 
 <section class="testimonial-card">
-  <blockquote>"Erazo Concrete delivered professional work that met our engineering requirements. Their team kept the schedule tight and the communication clear."</blockquote>
-  <cite>— Commercial Construction Manager</cite>
+  <blockquote>"Professional work that met our project requirements. Good communication and reliable execution throughout."</blockquote>
+  <cite>— Construction Professional</cite>
 </section>
