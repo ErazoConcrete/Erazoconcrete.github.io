@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: Get a Quote
 ---
 
 <section class="page-hero">
@@ -45,6 +45,6 @@ title: Contact
     <h2>Office Details</h2>
     <p><strong>Phone:</strong> <a href="tel:3392317006">339 231 7006</a></p>
     <p><strong>Email:</strong> <a href="mailto:estimating@erazoconcrete.com">estimating@erazoconcrete.com</a></p>
-    <p><strong>Address:</strong><br>1234 Concrete Lane<br>City, State 12345</p>
+    <img src="/assets/images/logo.png" alt="Erazo Concrete Logo" class="contact-logo">
   </div>
 </section>

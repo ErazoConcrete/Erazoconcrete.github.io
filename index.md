@@ -51,11 +51,6 @@ title: Home
 </section>
 
 <section class="testimonial-section">
-  <div class="testimonial-card">
-    <blockquote>"Erazo Concrete delivered work that met all our engineering requirements. Great to work with, thorough communication throughout, and excellent attention to detail."</blockquote>
-    <cite>— ABC Development Corp., General Contractor</cite>
-  </div>
-  
   <div class="cta-section">
     <h2>Start Your Project</h2>
     <p>Get a free quote and project assessment from our team.</p>
