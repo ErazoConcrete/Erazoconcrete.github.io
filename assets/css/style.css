@@ -8,6 +8,7 @@
   --text-light: #4a5568;
   --white: #ffffff;
   --border-radius: 4px;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -1630,7 +1631,7 @@ li {
 .cta-actions .btn {
   background-color: var(--accent-color);
   color: var(--white);
-  transform: transition 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .cta-actions .btn:hover {
@@ -1819,7 +1820,9 @@ li {
   border: 1px solid #e7eaef;
   border-radius: var(--border-radius);
   box-shadow: 0 10px 30px rgba(22, 44, 66, 0.15);
-  display: none;
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
   flex-direction: column;
   gap: 0;
   min-width: 140px;
@@ -1828,7 +1831,9 @@ li {
 }
 
 .theme-menu.active {
-  display: flex;
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 [data-theme="dark"] .theme-menu {
