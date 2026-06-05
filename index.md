@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <div class="hero-content">
     <h1>Concrete Solutions</h1>
-    <p>Engineering-driven installations backed by transparent communication and code compliance on every project.</p>
+    <p>Professional commercial concrete solutions focused on quality, durability, and on-time project execution.</p>
     <div class="hero-actions">
       <a href="/contact/" class="btn">Request Quote</a>
       <a href="#services" class="btn btn-secondary">View Services</a>
@@ -17,7 +17,7 @@ title: Home
 <section class="services-section" id="services">
   <div class="section-header">
     <h2>Our Services</h2>
-    <p class="section-subtitle">Engineered concrete solutions delivered on schedule with transparent communication</p>
+    <p class="section-subtitle">Foundations, Footings, Slabs, Piers, Grade Beams, etc.</p>
   </div>
   
   <div class="services-grid">

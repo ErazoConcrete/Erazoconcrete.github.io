@@ -34,7 +34,7 @@ html, body {
 .site-header {
   background: var(--white);
   color: var(--text-color);
-  padding: 12px 0;
+  padding: 24px 0;
   min-height: auto;
   box-shadow: 0 12px 30px rgba(34, 51, 70, 0.08);
   position: relative;
@@ -62,8 +62,8 @@ html, body {
 
 .site-header .site-logo,
 .site-header .site-logo-link img {
-  height: 120px;
-  width: 120px;
+  height: 160px;
+  width: 160px;
   object-fit: cover;
   display: block;
   border-radius: 14px;
