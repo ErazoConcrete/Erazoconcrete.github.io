@@ -14,14 +14,14 @@ title: Home
   </div>
 
   <div class="hero-options">
-    <div class="hero-option">
+    <a href="/services/foundation/" class="hero-option">
       <h3>Commercial Installation</h3>
       <p>Concrete work for commercial construction, slabs, and foundations.</p>
-    </div>
-    <div class="hero-option">
+    </a>
+    <a href="/services/driveways/" class="hero-option">
       <h3>Residential Projects</h3>
       <p>Patios, walkways, and exterior residential concrete surfaces.</p>
-    </div>
+    </a>
   </div>
 </div>
 
@@ -46,8 +46,8 @@ title: Home
   </div>
   <div class="service-card">
     <div class="image-gallery">
-      <img src="/assets/images/driveways/IMG_0366.jpg" alt="Residential project patio">
-      <img src="/assets/images/driveways/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Residential walkway">
+      <img src="/assets/images/residential/IMG_0366.jpg" alt="Residential project patio">
+      <img src="/assets/images/residential/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Residential walkway">
     </div>
     <h3>Residential Projects</h3>
     <p>Patios, walkways, and residential concrete surfaces designed for long-term use.</p>
@@ -69,19 +69,19 @@ title: Home
 <section class="trust-grid">
   <div class="trust-card">
     <h3>Project Momentum</h3>
-    <p>We keep work moving and resolve issues quickly so your schedule stays on track.</p>
+    <p>We keep work moving and resolve issues quickly so your schedule stays on track</p>
   </div>
   <div class="trust-card">
     <h3>Client Communication</h3>
-    <p>Regular updates and clear project coordination keep everyone aligned throughout the job.</p>
+    <p>Regular updates and clear project coordination keep everyone aligned throughout the job</p>
   </div>
   <div class="trust-card">
     <h3>Warranty Coverage</h3>
-    <p>All work is backed by warranty protection for lasting confidence in your investment.</p>
+    <p>All work is backed by a 1 year warranty</p>
   </div>
 </section>
 
 <section class="testimonial-card">
-  <blockquote>"Professional work that met our project requirements. Good communication and reliable execution throughout."</blockquote>
-  <cite>— Construction Professional</cite>
+  <blockquote>"Reliable work that met our project requirements. Good communication and dependable execution throughout."</blockquote>
+  <cite>— Construction Partner</cite>
 </section>

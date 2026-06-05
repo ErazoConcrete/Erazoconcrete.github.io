@@ -6,34 +6,18 @@ title: Contact
 <section class="page-hero">
   <div class="page-hero-content">
     <h1>Contact Erazo Concrete</h1>
-    <p>Connect with our commercial concrete experts for a fast, professional estimate and project review.</p>
+    <p>Connect with us for a fast quote request and project review.</p>
   </div>
 </section>
 
-<div class="contact-grid">
-  <div class="contact-card">
+<section class="contact-quote">
+  <div class="content-panel">
     <h2>Request a Quote</h2>
-    <p>Submit your project details using the form below for a professional estimate.</p>
+    <p>Tell us about your project and we’ll respond with a quote and next steps.</p>
   </div>
-  <div class="contact-card">
-    <h2>Phone</h2>
-    <p><a href="tel:+11234567890">(123) 456-7890</a></p>
-    <p>Available for project inquiries and consultations.</p>
-  </div>
-  <div class="contact-card">
-    <h2>Email</h2>
-    <p><a href="mailto:info@erazoconcrete.com">info@erazoconcrete.com</a></p>
-    <p>Contact for project inquiries and information requests.</p>
-  </div>
-</div>
+</section>
 
 <section class="contact-details">
-  <div class="content-panel">
-    <h2>Office Location</h2>
-    <p>1234 Concrete Lane<br>City, State 12345</p>
-    <p>Appointments available for project consultations and site reviews.</p>
-  </div>
-
   <div class="content-panel" id="contact-form">
     <h2>Send a Message</h2>
     <form action="https://formspree.io/f/xkoeeobg" method="POST">
@@ -56,13 +40,11 @@ title: Contact
       <button type="submit" class="btn">Submit Request</button>
     </form>
   </div>
-</section>
 
-<section class="business-hours">
-  <h2>Business Hours</h2>
-  <ul>
-    <li>Monday - Friday: 8:00 AM - 5:00 PM</li>
-    <li>Saturday: By appointment</li>
-    <li>Sunday: Closed</li>
-  </ul>
+  <div class="content-panel contact-office">
+    <h2>Office Details</h2>
+    <p><strong>Phone:</strong> <a href="tel:3392317006">339 231 7006</a></p>
+    <p><strong>Email:</strong> <a href="mailto:estimating@erazoconcrete.com">estimating@erazoconcrete.com</a></p>
+    <p><strong>Address:</strong><br>1234 Concrete Lane<br>City, State 12345</p>
+  </div>
 </section>
