@@ -38,42 +38,10 @@ Your building's foundation is its most critical element. We provide engineered c
 ✓ 1-Year Warranty included  
 
 ## Our Foundation Process
-
-### Step 1: Site Assessment
-- Evaluate soil conditions
-- Assess building requirements
-- Design considerations
-- Environmental factors
-
-### Step 2: Engineering Review
-- Review architectural plans
-- Structural requirements analysis
-- Building code compliance check
-- Specifications documentation
-
-### Step 3: Excavation & Preparation
-- Proper site excavation
-- Base material installation
-- Grading for drainage
-- Footing preparation
-
-### Step 4: Concrete Pour
-- High-quality concrete mix
-- Skilled application
-- Proper compaction
-- Surface finishing
-
-### Step 5: Curing & Testing
-- Proper curing time
-- Strength verification
-- Quality inspection
-- Compliance testing
-
-### Step 6: Documentation
-- All certifications
-- Testing results
-- Compliance records
-- Warranty documentation
+1.  **Engineering & Assessment:** We review plans and site conditions to ensure full compliance and structural integrity.
+2.  **Site Preparation:** Meticulous excavation, grading, and base preparation for a stable foundation.
+3.  **Concrete Installation:** A precise pour using high-grade materials and expert techniques.
+4.  **Quality Assurance:** We conduct thorough testing, inspection, and certification to guarantee strength and compliance.
 
 ## Why Reliable Foundation Work Matters
 
