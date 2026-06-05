@@ -26,8 +26,8 @@ title: Home
 </div>
 
 <section class="section-intro">
-  <h2>Keep your project on track</h2>
-  <p>We provide clear updates and consistent coordination so every job stays aligned from start to finish.</p>
+  <p>Erazo Concrete provides commercial concrete services with a focus on staying on track and keeping clients informed at every stage.</p>
+  <hr class="section-divider">
 </section>
 
 ## Services

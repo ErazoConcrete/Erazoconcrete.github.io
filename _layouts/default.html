@@ -6,6 +6,26 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Dark Mode Theme Script -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme') || 'system';
+      function getSystemTheme() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      function applyTheme(theme) {
+        const themeToApply = theme === 'system' ? getSystemTheme() : theme;
+        document.documentElement.setAttribute('data-theme', themeToApply);
+        localStorage.setItem('theme', theme);
+      }
+      applyTheme(savedTheme);
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        if (localStorage.getItem('theme') === 'system') {
+          applyTheme('system');
+        }
+      });
+    })();
+  </script>
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGPR3RC79K"></script>
   <script>
@@ -30,6 +50,42 @@
           }, 4000);
         }
       });
+
+      // Theme Toggle
+      const themeToggle = document.getElementById('theme-toggle');
+      const themeOptions = document.querySelectorAll('.theme-option');
+      
+      if (themeToggle) {
+        themeToggle.addEventListener('click', function(e) {
+          e.stopPropagation();
+          const menu = this.querySelector('.theme-menu');
+          menu.classList.toggle('active');
+        });
+
+        document.addEventListener('click', function() {
+          document.querySelectorAll('.theme-menu').forEach(menu => menu.classList.remove('active'));
+        });
+
+        themeOptions.forEach(option => {
+          option.addEventListener('click', function(e) {
+            e.preventDefault();
+            const theme = this.getAttribute('data-theme');
+            const themeToApply = theme === 'system' ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : theme;
+            document.documentElement.setAttribute('data-theme', themeToApply);
+            localStorage.setItem('theme', theme);
+            document.querySelector('.theme-menu').classList.remove('active');
+            updateActiveTheme();
+          });
+        });
+
+        function updateActiveTheme() {
+          const currentTheme = localStorage.getItem('theme') || 'system';
+          themeOptions.forEach(option => {
+            option.classList.toggle('active', option.getAttribute('data-theme') === currentTheme);
+          });
+        }
+        updateActiveTheme();
+      }
     });
   </script>
 </head>
@@ -52,6 +108,26 @@
           <li><a href="{{ '/projects/' | relative_url }}" class="nav-link">Projects</a></li>
           <li><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li>
           <li><a href="{{ '/contact/' | relative_url }}" class="nav-link nav-link--cta">Get Quote</a></li>
+          <li class="theme-toggle-container">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+              <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <div class="theme-menu">
+                <button class="theme-option" data-theme="system">System</button>
+                <button class="theme-option" data-theme="light">Light</button>
+                <button class="theme-option" data-theme="dark">Dark</button>
+              </div>
+            </button>
+          </li>
         </ul>
       </nav>
     </div>
