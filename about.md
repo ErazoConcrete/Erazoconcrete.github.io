@@ -6,7 +6,7 @@ title: About
 <section class="page-hero">
   <div class="page-hero-content">
     <h1>About Erazo Concrete</h1>
-    <p>Professional commercial concrete services with a corporate, polished approach for developers and contractors.</p>
+    <p>Residential and commercial concrete contractor</p>
   </div>
 </section>
 
@@ -21,7 +21,6 @@ title: About
       <li>Commercial concrete expertise for demanding projects</li>
       <li>Transparent project communication and scheduling</li>
       <li>Engineering-driven installation and quality control</li>
-      <li>Strong warranty coverage for peace of mind</li>
     </ul>
   </div>
 </div>
@@ -47,7 +46,7 @@ title: About
     <li>Integrity in every estimate and delivery</li>
     <li>Client-focused responsiveness</li>
     <li>Commitment to efficient execution</li>
-    <li>Professional, modern work standards</li>
+    <li>Modern standards for safe, dependable work</li>
   </ul>
 </section>
 

@@ -6,7 +6,7 @@ category: driveway
 
 <div class="hero">
   <h1>Residential Projects</h1>
-  <p>Concrete patios, walkways, and exterior surfaces built to keep projects on pace.</p>
+  <p>Concrete patios, walkways, and exterior surfaces designed to support your project needs.</p>
 </div>
 
 ## Residential Projects Overview
@@ -39,7 +39,7 @@ We provide concrete patios, walkways, and exterior surfaces that support project
 1. **Site Assessment** - We evaluate soil conditions and design requirements
 2. **Preparation** - Proper base preparation ensures longevity
 3. **Concrete Pour** - High-quality concrete applied by skilled technicians
-4. **Finishing** - Professional finishing for smooth, attractive surface
+4. **Finishing** - Smooth, attractive surface finishing
 5. **Curing** - Proper curing time for maximum strength
 
 ## Ready to Transform Your Exterior Surfaces?

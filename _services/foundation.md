@@ -6,7 +6,7 @@ category: foundation
 
 <div class="hero">
   <h1>Commercial Installation</h1>
-  <p>Concrete installations that keep your project moving forward.</p>
+  <p>Concrete installation services designed to keep your project on schedule.</p>
 </div>
 
 ## Commercial Installation Solutions
@@ -24,7 +24,7 @@ Your building's foundation is its most critical element. We provide engineered c
 
 - **New Foundation Installation** - For commercial construction projects
 - **Reinforced Concrete** - Engineered to exact specifications
-- **Building Foundations** - Professional-grade foundation concrete
+- **Building Foundations** - Durable foundation concrete
 - **Engineered Design** - Structural engineering consultation
 - **Quality Assurance** - Full inspection and testing compliance
 
@@ -59,7 +59,7 @@ Your building's foundation is its most critical element. We provide engineered c
 
 ### Step 4: Concrete Pour
 - High-quality concrete mix
-- Professional application
+- Skilled application
 - Proper compaction
 - Surface finishing
 
@@ -75,7 +75,7 @@ Your building's foundation is its most critical element. We provide engineered c
 - Compliance records
 - Warranty documentation
 
-## Why Professional Foundation Work Matters
+## Why Reliable Foundation Work Matters
 
 ✓ Prevents costly future damage  
 ✓ Ensures structural integrity  
@@ -90,4 +90,4 @@ All foundation work is backed by our **comprehensive 1-year warranty**, ensuring
 
 ## Ready for Your Commercial Project?
 
-[Get Professional Foundation Service](/contact/){: .btn}
+[Get a Foundation Quote](/contact/){: .btn}

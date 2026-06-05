@@ -3,7 +3,7 @@ layout: default
 title: Commercial Foundation Installation
 category: Foundation
 image: /assets/images/project-foundation-1.jpg
-description: Professional foundation for new commercial building
+description: Reliable foundation work for a new commercial building
 completed: "2025-11"
 location: Business Park
 client_name: ABC Development Corp.
@@ -22,7 +22,7 @@ client_name: ABC Development Corp.
 
 ## Project Details
 
-This was a professional foundation installation project for a new 8,500 sq ft commercial building. The project required precision engineering and strict adherence to building codes.
+This was a foundation installation project for a new 8,500 sq ft commercial building. The project required precision engineering and strict adherence to building codes.
 
 ### Project Requirements
 
@@ -47,13 +47,13 @@ This was a professional foundation installation project for a new 8,500 sq ft co
 - Safety protocols implemented
 
 ### 3. Concrete Pour
-- 8,500 sq ft professional concrete application
+- 8,500 sq ft concrete application
 - High-quality commercial-grade concrete mix
 - Proper reinforcement and specifications
 - On-time completion within schedule
 
 ### 4. Finishing & Testing
-- Professional surface finishing
+- Surface finishing
 - Strength testing and verification
 - Building code compliance inspection
 - Full documentation and certification
@@ -64,12 +64,12 @@ This was a professional foundation installation project for a new 8,500 sq ft co
 ✓ Engineered footings properly installed  
 ✓ Structural integrity verified by inspector  
 ✓ On-time project completion  
-✓ Professional workmanship  
+✓ Quality workmanship  
 ✓ 1-Year warranty backed  
 
 ## Client Testimonial
 
-> "Erazo Concrete delivered professional work that met all our engineering requirements. Great to work with, thorough communication throughout, and excellent attention to detail." - ABC Development Corp., General Contractor
+> "Erazo Concrete delivered work that met all our engineering requirements. Great to work with, thorough communication throughout, and excellent attention to detail." - ABC Development Corp., General Contractor
 
 ## Gallery
 

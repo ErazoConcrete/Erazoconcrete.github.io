@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <div class="hero-content">
     <h1>Commercial Concrete Solutions</h1>
-    <p>We keep projects moving with clear communication and focused execution from start to finish.</p>
+    <p>Concrete services for commercial and residential projects, with steady progress and clear communication.</p>
     <div class="hero-actions">
       <a href="/contact/" class="btn">Get Your Free Quote</a>
       <a href="/services/" class="btn btn-secondary">View Services</a>
@@ -26,8 +26,8 @@ title: Home
 </div>
 
 <section class="section-intro">
-  <h2>Keep your project on schedule</h2>
-  <p>We push through project milestones and maintain open communication with clients so every job stays on track.</p>
+  <h2>Keep your project on track</h2>
+  <p>We provide clear updates and consistent coordination so every job stays aligned from start to finish.</p>
 </section>
 
 ## Services
@@ -69,19 +69,19 @@ title: Home
 <section class="trust-grid">
   <div class="trust-card">
     <h3>Project Momentum</h3>
-    <p>We keep work moving and resolve issues quickly so your schedule stays on track</p>
+    <p>We keep work moving safely and resolve issues quickly so your schedule stays on track.</p>
   </div>
   <div class="trust-card">
     <h3>Client Communication</h3>
-    <p>Regular updates and clear project coordination keep everyone aligned throughout the job</p>
+    <p>Regular updates and clear project coordination keep everyone aligned throughout the job.</p>
   </div>
   <div class="trust-card">
     <h3>Warranty Coverage</h3>
-    <p>All work is backed by a 1 year warranty</p>
+    <p>All work is backed by a 1-year warranty.</p>
   </div>
 </section>
 
 <section class="testimonial-card">
   <blockquote>"Reliable work that met our project requirements. Good communication and dependable execution throughout."</blockquote>
-  <cite>— Construction Partner</cite>
+  <cite>— Contracting Partner</cite>
 </section>

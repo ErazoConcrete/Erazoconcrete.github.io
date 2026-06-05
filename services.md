@@ -6,12 +6,12 @@ title: Services
 <section class="page-hero">
   <div class="page-hero-content">
     <h1>Services</h1>
-    <p>Concrete services for commercial and industrial projects that keep work moving.</p>
+    <p>Concrete services for commercial and industrial projects with clear planning and steady coordination.</p>
   </div>
 </section>
 
 <section class="content-panel">
-  <p>Erazo Concrete provides commercial concrete services with a focus on keeping schedules on track and keeping clients informed through every phase.</p>
+  <p>Erazo Concrete provides commercial concrete services with a focus on staying on track and keeping clients informed at every stage.</p>
 </section>
 
 <div class="services-grid">
@@ -36,7 +36,7 @@ title: Services
   </div>
   <div class="content-panel">
     <h2>Our Process</h2>
-    <p>We maintain project momentum from consultation through completion, with clear communication and reliable execution.</p>
+    <p>From site evaluation through finishing, we provide clear communication, progress updates, and dependable execution on every concrete job.</p>
   </div>
 </section>
 

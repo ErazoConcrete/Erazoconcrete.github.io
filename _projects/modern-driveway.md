@@ -50,17 +50,17 @@ This was a large-scale foundation project for a new 12,000 sq ft industrial manu
 - 12,000 sq ft concrete pour
 - Heavy-duty reinforcement
 - Industrial-grade concrete mix
-- Professional application
+- Skilled application
 
 ### 4. Quality Assurance
 - Load testing verification
 - Code compliance inspection
-- Professional finishing
+- Smooth finishing
 - Documentation and certification
 
 ## Results
 
-✓ Professional industrial foundation  
+✓ Industrial foundation built to spec  
 ✓ Designed for heavy equipment  
 ✓ All specifications met  
 ✓ On-schedule completion  
