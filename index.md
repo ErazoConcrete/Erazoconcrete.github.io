@@ -5,52 +5,20 @@ title: Home
 
 <div class="hero">
   <div class="hero-content">
-    <h1>Commercial Concrete Solutions</h1>
-    <p>Concrete services for commercial and residential projects, with steady progress and clear communication.</p>
+    <h1>Concrete Solutions for Commercial & Residential Projects</h1>
+    <p>Engineering-driven installations backed by transparent communication and code compliance on every project.</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn">Get Your Free Quote</a>
-      <a href="#services" class="btn btn-secondary">Explore Services</a>
+      <a href="/contact/" class="btn">Request Quote</a>
+      <a href="#services" class="btn btn-secondary">View Services</a>
     </div>
-  </div>
-
-  <div class="hero-options">
-    <a href="#commercial-installation" class="hero-option">
-      <h3>Commercial Installation</h3>
-      <p>Concrete work for commercial construction, slabs, and foundations.</p>
-    </a>
-    <a href="#residential-projects" class="hero-option">
-      <h3>Residential Projects</h3>
-      <p>Patios, walkways, and exterior residential concrete surfaces.</p>
-    </a>
   </div>
 </div>
 
-<section class="trust-intro">
-  <div class="trust-intro-content">
-    <h2>Why Choose Erazo Concrete</h2>
-    <p>We deliver concrete solutions with a focus on staying on track and keeping clients informed at every stage.</p>
-  </div>
-  <div class="trust-highlights">
-    <div class="highlight-item">
-      <div class="highlight-icon">✓</div>
-      <h4>On-Time Delivery</h4>
-      <p>Project schedules that stay on track</p>
-    </div>
-    <div class="highlight-item">
-      <div class="highlight-icon">✓</div>
-      <h4>Clear Communication</h4>
-      <p>Regular updates and coordination</p>
-    </div>
-    <div class="highlight-item">
-      <div class="highlight-icon">✓</div>
-      <h4>1-Year Warranty</h4>
-      <p>Backed by quality assurance</p>
-    </div>
-  </div>
-</section>
-
 <section class="services-section" id="services">
-  <h2>Our Services</h2>
+  <div class="section-header">
+    <h2>Our Services</h2>
+    <p class="section-subtitle">Engineered concrete solutions delivered on schedule with transparent communication</p>
+  </div>
   
   <div class="services-grid">
     <div class="service-card" id="commercial-installation">
@@ -62,8 +30,8 @@ title: Home
       </div>
       <div class="service-content">
         <h3>Commercial Installation</h3>
-        <p>Concrete installations for commercial construction and industrial structures. Engineered solutions designed for performance and longevity.</p>
-        <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
+        <p>Building foundations, slabs, and industrial structures engineered for performance and compliance.</p>
+        <a href="/services/foundation/" class="service-link">Learn more →</a>
       </div>
     </div>
 
@@ -75,29 +43,8 @@ title: Home
       </div>
       <div class="service-content">
         <h3>Residential Projects</h3>
-        <p>Patios, walkways, and exterior concrete surfaces designed for long-term use and curb appeal. Quality finishes that enhance your property.</p>
-        <a href="/services/driveways/" class="btn btn-secondary">Learn More</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="feature-section">
-  <div class="feature-content">
-    <div class="feature-text">
-      <h2>Built on Reliability</h2>
-      <p>Erazo Concrete brings decades of expertise to every project. We work with construction managers, developers, and contractors to ensure precise execution and transparent communication from start to finish.</p>
-      <ul class="feature-list">
-        <li>Code-compliant installations</li>
-        <li>Transparent project timelines</li>
-        <li>Responsive support team</li>
-        <li>Quality-first approach</li>
-      </ul>
-    </div>
-    <div class="feature-highlight">
-      <div class="stat-card">
-        <div class="stat-number">100%</div>
-        <p>Project Satisfaction</p>
+        <p>Patios, walkways, and exterior surfaces designed for durability and aesthetic appeal.</p>
+        <a href="/services/driveways/" class="service-link">Learn more →</a>
       </div>
     </div>
   </div>
@@ -110,11 +57,9 @@ title: Home
   </div>
   
   <div class="cta-section">
-    <h2>Ready for Your Project?</h2>
+    <h2>Start Your Project</h2>
     <p>Get a free quote and project assessment from our team.</p>
-    <div class="cta-actions">
-      <a href="/contact/" class="btn">Request a Quote</a>
-    </div>
+    <a href="/contact/" class="btn">Request a Quote</a>
   </div>
 </section>
 
