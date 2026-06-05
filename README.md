@@ -100,7 +100,7 @@ Edit `_config.yml`:
 
 ```yaml
 title: Erazo Concrete LLC
-description: Professional concrete services and solutions
+description: Concrete services and solutions
 author: Erazo Concrete LLC
 email: your-email@example.com
 phone: (555) 123-4567
