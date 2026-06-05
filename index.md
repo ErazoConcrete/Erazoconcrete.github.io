@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero">
   <div class="hero-content">
-    <h1>Concrete Solutions for Commercial & Residential Projects</h1>
+    <h1>Concrete Solutions</h1>
     <p>Engineering-driven installations backed by transparent communication and code compliance on every project.</p>
     <div class="hero-actions">
       <a href="/contact/" class="btn">Request Quote</a>
@@ -62,4 +62,3 @@ title: Home
     <a href="/contact/" class="btn">Request a Quote</a>
   </div>
 </section>
-
