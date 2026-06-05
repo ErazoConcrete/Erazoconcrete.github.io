@@ -5,58 +5,54 @@ title: About
 
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1>About Erazo Concrete</h1>
-    <p>Residential and commercial concrete contractor</p>
+    <h1>Hi, We're Erazo Concrete! 👋</h1>
+    <p>Your friendly neighborhood concrete experts, building strong foundations and beautiful spaces.</p>
   </div>
 </section>
 
 <div class="content-row">
   <div class="content-panel">
-    <h2>Our Focus</h2>
-    <p>We deliver commercial concrete solutions that support large-scale projects, industrial facilities, and development sites with the quality and reliability required by decision makers.</p>
+    <h2>Who We Are</h2>
+    <p>We are a dedicated team of concrete professionals who love what we do. Whether it's a cozy new backyard patio for your family or a solid foundation for a new business, we treat every project with the same care and attention as if it were our own home.</p>
   </div>
   <div class="content-panel">
-    <h2>What Sets Us Apart</h2>
+    <h2>Why Choose Us?</h2>
     <ul>
-      <li>Commercial concrete expertise for demanding projects</li>
-      <li>Transparent project communication and scheduling</li>
-      <li>Engineering-driven installation and quality control</li>
+      <li>Friendly, approachable, and transparent communication.</li>
+      <li>High-quality materials that stand the test of time.</li>
+      <li>A passionate team that respects your property and schedule.</li>
     </ul>
   </div>
 </div>
 
 <section class="trust-grid">
   <div class="trust-card">
-    <h3>Corporate Experience</h3>
-    <p>Our team works with construction managers, developers, and contractors to ensure every concrete phase aligns with project goals.</p>
+    <h3>Honest Pricing</h3>
+    <p>No hidden fees or surprises. We believe in straightforward, clear quotes so you know exactly what to expect right from the start.</p>
   </div>
   <div class="trust-card">
-    <h3>Quality Standards</h3>
-    <p>We use premium materials, code-compliant methods, and clear documentation for every commercial installation.</p>
+    <h3>Quality Craftsmanship</h3>
+    <p>We take absolute pride in our work. From pouring to finishing, we make sure every single detail is done right.</p>
   </div>
   <div class="trust-card">
-    <h3>Project Reliability</h3>
-    <p>Dependable scheduling, consistent communication, and proactive execution help keep projects moving.</p>
+    <h3>Reliable Timing</h3>
+    <p>Your time is incredibly valuable. We show up when we say we will, and we work hard to keep your project right on schedule.</p>
   </div>
 </section>
 
-<section class="content-panel">
-  <h2>Core Values</h2>
-  <ul>
-    <li>Integrity in every estimate and delivery</li>
-    <li>Client-focused responsiveness</li>
-    <li>Commitment to efficient execution</li>
-    <li>Modern standards for safe, dependable work</li>
-  </ul>
+<section class="content-panel text-center">
+  <h2>Let's Get Social!</h2>
+  <p>Follow us to see our latest projects, behind-the-scenes action, and helpful concrete tips.</p>
+  <div class="hero-actions" style="margin-top: 24px;">
+    <a href="#" class="btn btn-secondary" target="_blank">Instagram</a>
+    <a href="#" class="btn btn-secondary" target="_blank">Facebook</a>
+    <a href="#" class="btn btn-secondary" target="_blank">LinkedIn</a>
+  </div>
 </section>
 
-<section class="testimonial-card">
-  <blockquote>"Erazo Concrete delivered a strong foundation on time, with clear communication and a practical commercial approach."</blockquote>
-  <cite>— Senior Project Manager</cite>
-</section>
-
-<div class="content-panel">
-  <h2>Ready to Collaborate?</h2>
-  <p>Partner with a concrete contractor that understands commercial schedules, budgets, and construction expectations.</p>
-  <a href="/contact/" class="btn">Contact Us</a>
+<div class="content-panel text-center" style="margin-top: 40px;">
+  <h2>Ready to Start Your Project?</h2>
+  <p>We'd love to hear about your ideas and help bring them to life!</p>
+  <br>
+  <a href="/contact/" class="btn">Get in Touch</a>
 </div>
