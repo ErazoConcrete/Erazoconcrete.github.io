@@ -38,19 +38,32 @@ title: Home
 
 <div class="services-grid">
   <div class="service-card">
-    <div class="service-icon">🏗️</div>
+    <div class="image-gallery">
+      <img src="/assets/images/foundations/06-05-2026 10-15-26.jpeg" alt="Foundations work">
+      <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.10.jpeg" alt="Foundations project">
+      <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.16.jpeg" alt="Concrete foundations">
+      <img src="/assets/images/foundations/WhatsApp Image 2026-06-04 at 15.34.59.jpeg" alt="Foundation installation">
+    </div>
     <h3>Foundations</h3>
     <p>Concrete foundation work for commercial buildings and construction projects.</p>
     <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
   </div>
   <div class="service-card">
-    <div class="service-icon">🏭</div>
+    <div class="image-gallery">
+      <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.31.19 (1).jpeg" alt="Industrial concrete">
+      <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.42.06 (1).jpeg" alt="Industrial installation">
+      <img src="/assets/images/industrial/WhatsApp Image 2026-06-02 at 15.48.36 (3).jpeg" alt="Concrete work">
+      <img src="/assets/images/industrial/WhatsApp Image 2026-06-02 at 16.23.25.jpeg" alt="Industrial project">
+    </div>
     <h3>Industrial Concrete</h3>
     <p>Concrete solutions for industrial and commercial applications.</p>
     <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
   </div>
   <div class="service-card">
-    <div class="service-icon">🛣️</div>
+    <div class="image-gallery">
+      <img src="/assets/images/driveways/IMG_0366.jpg" alt="Driveway work">
+      <img src="/assets/images/driveways/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Paved driveway">
+    </div>
     <h3>Driveways & Access</h3>
     <p>Commercial concrete paving and site access areas.</p>
     <a href="/services/driveways/" class="btn btn-secondary">Learn More</a>

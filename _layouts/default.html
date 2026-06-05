@@ -6,6 +6,32 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGPR3RC79K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PGPR3RC79K');
+  </script>
+  <!-- Image Rotation Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const galleries = document.querySelectorAll('.image-gallery');
+      galleries.forEach(gallery => {
+        let currentIndex = 0;
+        const images = gallery.querySelectorAll('img');
+        if (images.length > 1) {
+          setInterval(() => {
+            images.forEach((img, idx) => {
+              img.style.display = idx === currentIndex ? 'block' : 'none';
+            });
+            currentIndex = (currentIndex + 1) % images.length;
+          }, 4000);
+        }
+      });
+    });
+  </script>
 </head>
 <body>
   <header class="site-header">
