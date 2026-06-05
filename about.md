@@ -3,69 +3,61 @@ layout: default
 title: About
 ---
 
-<div class="hero">
-  <h1>About Erazo Concrete LLC</h1>
-  <p>Professional Concrete Services with a Commitment to Excellence</p>
-</div>
-
-## Our Story
-
-Erazo Concrete LLC is a professional concrete contractor dedicated to delivering exceptional craftsmanship and customer satisfaction. With years of experience in residential and commercial concrete work, we've built a reputation for quality, reliability, and attention to detail.
-
-## Who We Are
-
-We're a team of skilled concrete professionals passionate about transforming outdoor spaces. From durable driveways to stunning patios, we approach every project with professionalism and pride in our work.
-
-## Our Mission
-
-To provide high-quality concrete solutions that enhance the beauty and functionality of our clients' properties while exceeding their expectations every time.
-
-## Our Core Values
-
-- **Quality First** - We never compromise on materials or craftsmanship
-- **Customer Focused** - Your satisfaction is our top priority
-- **Professional** - Reliable, punctual, and detail-oriented service
-- **Transparent** - Honest communication and fair pricing
-- **Excellence** - We strive to exceed expectations on every project
-
-## What We Offer
-
-<div class="services-grid">
-  <div class="service-card">
-    <h3>Residential Concrete</h3>
-    <p>Driveways, patios, walkways, and custom solutions for your home.</p>
+<section class="page-hero">
+  <div class="page-hero-content">
+    <h1>About Erazo Concrete</h1>
+    <p>Professional commercial concrete services with a corporate, polished approach for developers and contractors.</p>
   </div>
-  <div class="service-card">
-    <h3>Commercial Work</h3>
-    <p>Professional concrete solutions for businesses and commercial properties.</p>
+</section>
+
+<div class="content-row">
+  <div class="content-panel">
+    <h2>Our Focus</h2>
+    <p>We deliver commercial concrete solutions that support large-scale projects, industrial facilities, and development sites with the quality and reliability required by decision makers.</p>
   </div>
-  <div class="service-card">
-    <h3>Repairs & Maintenance</h3>
-    <p>Concrete restoration and maintenance to extend the life of your surfaces.</p>
+  <div class="content-panel">
+    <h2>What Sets Us Apart</h2>
+    <ul>
+      <li>Commercial concrete expertise for demanding projects</li>
+      <li>Transparent project communication and scheduling</li>
+      <li>Engineering-driven installation and quality control</li>
+      <li>Strong warranty coverage for peace of mind</li>
+    </ul>
   </div>
 </div>
 
-## Why Choose Us?
+<section class="trust-grid">
+  <div class="trust-card">
+    <h3>Corporate Experience</h3>
+    <p>Our team works with construction managers, developers, and contractors to ensure every concrete phase aligns with project goals.</p>
+  </div>
+  <div class="trust-card">
+    <h3>Quality Standards</h3>
+    <p>We use premium materials, code-compliant methods, and clear documentation for every commercial installation.</p>
+  </div>
+  <div class="trust-card">
+    <h3>Project Reliability</h3>
+    <p>Dependable scheduling, consistent communication, and proactive execution help keep projects moving.</p>
+  </div>
+</section>
 
-✓ Years of professional experience  
-✓ Licensed and insured  
-✓ Free professional consultation  
-✓ Competitive, transparent pricing  
-✓ High-quality materials  
-✓ Professional team  
-✓ On-time project completion  
-✓ Satisfaction guaranteed  
+<section class="content-panel">
+  <h2>Core Values</h2>
+  <ul>
+    <li>Integrity in every estimate and delivery</li>
+    <li>Client-focused responsiveness</li>
+    <li>Commitment to efficient execution</li>
+    <li>Professional, modern work standards</li>
+  </ul>
+</section>
 
-## Client Testimonials
+<section class="testimonial-card">
+  <blockquote>"Erazo Concrete delivered a strong foundation on time, with clear communication and a practical commercial approach."</blockquote>
+  <cite>— Senior Project Manager</cite>
+</section>
 
-> "Outstanding work and excellent customer service. Highly recommended!" - *Satisfied Homeowner*
-
-> "Professional, reliable, and attention to detail. Will definitely use again!" - *Business Owner*
-
-> "The best concrete contractor in the area. Great quality and fair pricing." - *Long-time Client*
-
-## Ready to Work Together?
-
-Get started with a free consultation and professional quote.
-
-[Contact Us Today](/contact/){: .btn}
+<div class="content-panel">
+  <h2>Ready to Collaborate?</h2>
+  <p>Partner with a concrete contractor that understands commercial schedules, budgets, and construction expectations.</p>
+  <a href="/contact/" class="btn">Contact Us</a>
+</div>

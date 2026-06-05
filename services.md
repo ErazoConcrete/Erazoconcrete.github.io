@@ -3,12 +3,16 @@ layout: default
 title: Services
 ---
 
-<div class="hero">
-  <h1>Commercial Concrete Solutions</h1>
-  <p>Professional Services for Commercial Projects</p>
-</div>
+<section class="page-hero">
+  <div class="page-hero-content">
+    <h1>Commercial Concrete Services</h1>
+    <p>Clear, professional service offerings for developers, contractors, and commercial construction teams.</p>
+  </div>
+</section>
 
-At Erazo Concrete LLC, we specialize in commercial-grade concrete work with professional craftsmanship and engineering expertise.
+<section class="content-panel">
+  <p>Erazo Concrete focuses on commercial-grade concrete work with a disciplined approach to quality, cost, and schedule. Our service portfolio is built for buildings, industrial sites, and infrastructure projects.</p>
+</section>
 
 <div class="services-grid">
   {% for service in site.services %}
@@ -20,16 +24,26 @@ At Erazo Concrete LLC, we specialize in commercial-grade concrete work with prof
   {% endfor %}
 </div>
 
-## Why Choose Erazo Concrete?
+<section class="content-row">
+  <div class="content-panel">
+    <h2>Why Choose Erazo Concrete?</h2>
+    <ul>
+      <li>Engineering expertise aligned with commercial needs</li>
+      <li>Premium materials and code-compliant installation</li>
+      <li>Transparent pricing and dependable delivery</li>
+      <li>Warranty-backed work for long-term confidence</li>
+    </ul>
+  </div>
+  <div class="content-panel">
+    <h2>Project Support</h2>
+    <p>From site evaluation through finishing, we provide clear communication, progress updates, and professional execution on every concrete job.</p>
+  </div>
+</section>
 
-- **Engineering Expertise** - Engineered solutions meeting all building codes
-- **Professional Team** - Commercial concrete specialists
-- **Quality Materials** - Premium concrete and finishes
-- **Competitive Pricing** - Fair prices for commercial projects
-- **Reliable Delivery** - On-time project completion
-- **1-Year Warranty** - All work backed by comprehensive warranty
-- **Free Consultation** - Professional assessment at no cost
-
-## Ready to Get Started?
-
-[Request a Free Quote](/contact/){: .btn}
+<section class="quote-panel">
+  <div class="quote-panel-content">
+    <h2>Ready to review your project?</h2>
+    <p>Contact us for a free commercial quote and quick project assessment.</p>
+    <a href="/contact/" class="btn">Request a Quote</a>
+  </div>
+</section>

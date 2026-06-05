@@ -3,44 +3,67 @@ layout: default
 title: Contact
 ---
 
-# Contact Us
-
-Have a project in mind? We'd love to hear from you!
-
-## Get in Touch
-
-**Phone:** [Your Phone Number]
-**Email:** [Your Email Address]
-**Address:** [Your Business Address]
-
-## Request a Quote
-
-Fill out the form below to request a free consultation and quote:
-
-<form action="https://formspree.io/f/xkoeeobg" method="POST" style="max-width: 500px; margin: 20px 0;">
-  <div style="margin-bottom: 15px;">
-    <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Name:</label>
-    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+<section class="page-hero">
+  <div class="page-hero-content">
+    <h1>Contact Erazo Concrete</h1>
+    <p>Connect with our commercial concrete experts for a fast, professional estimate and project review.</p>
   </div>
-  <div style="margin-bottom: 15px;">
-    <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
-    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+</section>
+
+<div class="contact-grid">
+  <div class="contact-card">
+    <h2>Request a Quote</h2>
+    <p>Tell us about your commercial project and receive a responsive, tailored proposal.</p>
+    <a href="#contact-form" class="btn">Request a Quote</a>
   </div>
-  <div style="margin-bottom: 15px;">
-    <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message:</label>
-    <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+  <div class="contact-card">
+    <h2>Phone</h2>
+    <p><a href="tel:+11234567890">(123) 456-7890</a></p>
+    <p>Available Monday through Friday for project consultations.</p>
   </div>
-  <button type="submit" class="btn">Send Message</button>
-</form>
+  <div class="contact-card">
+    <h2>Email</h2>
+    <p><a href="mailto:info@erazoconcrete.com">info@erazoconcrete.com</a></p>
+    <p>Best for sending project documents, scope outlines, and site details.</p>
+  </div>
+</div>
 
-*(Note: To make this form send emails directly to you, sign up for a free account at [Formspree.io](https://formspree.io/), create a new form, and replace `YOUR_FORM_ID` in the code above with your actual Formspree ID!)*
+<section class="contact-details">
+  <div class="content-panel">
+    <h2>Office Location</h2>
+    <p>1234 Concrete Lane<br>City, State 12345</p>
+    <p>Meetings and site reviews are available by appointment to keep your project moving efficiently.</p>
+  </div>
 
-## Business Hours
+  <div class="content-panel" id="contact-form">
+    <h2>Send a Message</h2>
+    <form action="https://formspree.io/f/xkoeeobg" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+      </div>
+      <div class="form-group">
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" placeholder="Briefly describe your project" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Submit Request</button>
+    </form>
+  </div>
+</section>
 
-- Monday - Friday: 8:00 AM - 5:00 PM
-- Saturday: By appointment
-- Sunday: Closed
-
----
-
-**Questions?** Don't hesitate to reach out. We're here to help!
+<section class="business-hours">
+  <h2>Business Hours</h2>
+  <ul>
+    <li>Monday - Friday: 8:00 AM - 5:00 PM</li>
+    <li>Saturday: By appointment</li>
+    <li>Sunday: Closed</li>
+  </ul>
+</section>

@@ -5,118 +5,86 @@ title: Home
 
 <div class="hero">
   <div class="hero-content">
-    <h1>Commercial Foundation Specialists</h1>
-    <p>Expert Concrete Foundations for Commercial Construction</p>
-    <p style="margin-top: 20px;"><a href="/contact/" class="btn" style="display: inline-block;">Get Your Free Quote</a></p>
+    <h1>Commercial Concrete with Precision and Performance</h1>
+    <p>Erazo Concrete brings strong, dependable foundations to developers, contractors, and commercial construction teams with a refined, corporate approach.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn">Get Your Free Quote</a>
+      <a href="/services/" class="btn btn-secondary">Explore Services</a>
+    </div>
+  </div>
+
+  <div class="hero-options">
+    <div class="hero-option">
+      <h3>Commercial Foundations</h3>
+      <p>Engineered slabs, footings, and grade beams for large-scale buildings.</p>
+    </div>
+    <div class="hero-option">
+      <h3>Industrial Concrete</h3>
+      <p>Heavy-duty concrete systems for warehouses, manufacturing, and logistics centers.</p>
+    </div>
+    <div class="hero-option">
+      <h3>Access & Driveways</h3>
+      <p>Durable driveways and service access areas engineered for continuous use.</p>
+    </div>
   </div>
 </div>
 
-## Welcome to Erazo Concrete LLC
+<section class="section-intro">
+  <h2>Clear, smarter construction support</h2>
+  <p>We remove clutter and keep the homepage focused on what matters most: strong foundations, reliable delivery, and a fast path to your free quote.</p>
+</section>
 
-Your trusted partner for professional commercial concrete foundations. We specialize in engineered concrete solutions that meet the highest standards.
-
-## Our Services
+## Our Core Services
 
 <div class="services-grid">
   <div class="service-card">
     <div class="service-icon">🏗️</div>
-    <h3>New Foundations</h3>
-    <p>Engineered concrete foundations for commercial buildings and construction projects.</p>
-    <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
+    <h3>Foundations</h3>
+    <p>Commercial foundation systems designed for structural performance and long-term reliability.</p>
+    <a href="/services/foundation/" class="btn btn-secondary">View Details</a>
   </div>
   <div class="service-card">
     <div class="service-icon">🏭</div>
     <h3>Industrial Concrete</h3>
-    <p>Heavy-duty concrete solutions for industrial and commercial applications.</p>
-    <a href="/services/foundation/" class="btn btn-secondary">Learn More</a>
+    <p>Robust concrete solutions for manufacturing, storage, and industrial park development.</p>
+    <a href="/services/foundation/" class="btn btn-secondary">View Details</a>
   </div>
   <div class="service-card">
-    <div class="service-icon">🛠️</div>
-    <h3>Concrete Driveways</h3>
-    <p>Commercial-grade driveways for loading areas and access routes.</p>
-    <a href="/services/driveways/" class="btn btn-secondary">Learn More</a>
-  </div>
-  <div class="service-card">
-    <div class="service-icon">✅</div>
-    <h3>1-Year Warranty</h3>
-    <p>All work backed by comprehensive warranty for peace of mind.</p>
+    <div class="service-icon">🛣️</div>
+    <h3>Driveways & Access</h3>
+    <p>Commercial-grade access paving and loading area surfaces built for heavy traffic.</p>
+    <a href="/services/driveways/" class="btn btn-secondary">View Details</a>
   </div>
 </div>
 
-## Our Process
-
-<div style="background: #f8f9fa; padding: 30px; border-radius: 8px; margin: 40px 0;">
-  <h3 style="text-align: center; margin-top: 0;">Foundation Work Steps</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px;">
-    <div style="text-align: center;">
-      <div style="font-size: 2.5em; margin-bottom: 10px;">📋</div>
-      <strong>1. Site Assessment</strong>
-      <p>Evaluate soil conditions and design requirements</p>
-    </div>
-    <div style="text-align: center;">
-      <div style="font-size: 2.5em; margin-bottom: 10px;">🔍</div>
-      <strong>2. Engineering Review</strong>
-      <p>Review plans and structural specifications</p>
-    </div>
-    <div style="text-align: center;">
-      <div style="font-size: 2.5em; margin-bottom: 10px;">🏗️</div>
-      <strong>3. Excavation & Prep</strong>
-      <p>Proper grading and base preparation</p>
-    </div>
-    <div style="text-align: center;">
-      <div style="font-size: 2.5em; margin-bottom: 10px;">🚚</div>
-      <strong>4. Concrete Pour</strong>
-      <p>Professional application and finishing</p>
-    </div>
-    <div style="text-align: center;">
-      <div style="font-size: 2.5em; margin-bottom: 10px;">⏱️</div>
-      <strong>5. Curing & Testing</strong>
-      <p>Proper curing and quality verification</p>
-    </div>
-    <div style="text-align: center;">
-      <div style="font-size: 2.5em; margin-bottom: 10px;">📜</div>
-      <strong>6. Documentation</strong>
-      <p>All certifications and compliance records</p>
+<section class="quote-panel">
+  <div class="quote-panel-content">
+    <span class="label">Free Project Consultation</span>
+    <h2>Request your free quote in a few simple steps</h2>
+    <p>Submit your project details and our team will respond quickly with a clear cost estimate, schedule outlook, and scope recommendations.</p>
+    <div class="quote-panel-actions">
+      <a href="/contact/" class="btn">Get a Free Quote</a>
+      <a href="/contact/" class="btn btn-secondary">Contact Our Team</a>
     </div>
   </div>
-</div>
+</section>
 
-## ⭐ 1-Year Warranty Guarantee
+<section class="trust-grid">
+  <div class="trust-card">
+    <h3>Modern, corporate presentation</h3>
+    <p>Designed to appeal to developers, contractors, and construction executives with a clean visual experience.</p>
+  </div>
+  <div class="trust-card">
+    <h3>Streamlined service focus</h3>
+    <p>Only the most relevant commercial concrete services are shown front and center, with fewer distractions.</p>
+  </div>
+  <div class="trust-card">
+    <h3>Reliable execution</h3>
+    <p>One-year warranty coverage, code-compliant installation, and a dependable partner for your next project.</p>
+  </div>
+</section>
 
-All our foundation work is backed by a **comprehensive 1-year warranty**. We guarantee structural integrity, proper installation, and full compliance with building codes. Your investment is protected.
-
-## Recent Projects
-
-<div class="projects-grid">
-  {% for project in site.projects %}
-    <div class="project-card">
-      <div class="project-image">
-        {% if project.image %}
-          <img src="{{ project.image }}" alt="{{ project.title }}">
-        {% else %}
-          📸
-        {% endif %}
-      </div>
-      <div class="project-content">
-        <span class="project-category">{{ project.category }}</span>
-        <h3 class="project-title">{{ project.title }}</h3>
-        <p>{{ project.description | truncatewords: 20 }}</p>
-        <a href="{{ project.url }}" class="btn btn-secondary">View Details</a>
-      </div>
-    </div>
-  {% endfor %}
-</div>
-
-## What Our Clients Say
-
-> "Erazo Concrete delivered professional work that met all our engineering requirements. Great to work with and thorough communication throughout."  
-> — *ABC Development Corp., Commercial Client*
-
-> "Best concrete contractor we've worked with. Professional, reliable, and on time."  
-> — *Construction Manager*
-
-## Ready to Get Started?
-
-Start your commercial project with proven foundation expertise.
-
-[Request Your Free Quote](/contact/){: .btn}
+<section class="testimonial-card">
+  <blockquote>"Erazo Concrete delivered professional work that met our engineering requirements. Their team kept the schedule tight and the communication clear."</blockquote>
+  <cite>— Commercial Construction Manager</cite>
+</section>
