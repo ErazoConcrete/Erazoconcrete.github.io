@@ -45,6 +45,6 @@ title: Get a Quote
     <h2>Office Details</h2>
     <p><strong>Phone:</strong> <a href="tel:3392317006">339 231 7006</a></p>
     <p><strong>Email:</strong> <a href="mailto:estimating@erazoconcrete.com">estimating@erazoconcrete.com</a></p>
-    <img src="/assets/images/foundations/06-05-2026-10-15-26.jpeg" alt="Erazo Concrete Projects" class="contact-image" style="border-radius: 8px; margin-top: 20px; max-width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="Erazo Concrete Logo" class="contact-logo" style="margin-top: 20px; max-width: 100%;">
   </div>
 </section>

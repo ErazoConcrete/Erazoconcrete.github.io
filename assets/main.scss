@@ -145,20 +145,20 @@ $text-color: #2d3748 !default; // Corporate Dark Slate
 }
 
 // Call to Action Section (Start Your Project)
-.cta-section {
+section .cta-section {
   text-align: center;
   padding: 40px 20px;
   background-color: #f8f9fa;
   border-radius: 8px;
   
   h2, p {
-    color: $text-color;
+    color: #000000 !important;
   }
 
   @media (prefers-color-scheme: dark) {
     background-color: #2d3748;
     h2, p {
-      color: #ffffff;
+      color: #ffffff !important;
     }
   }
 }

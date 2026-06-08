@@ -15,7 +15,7 @@ We provide concrete patios, walkways, and exterior surfaces that support project
 
 <div class="image-gallery">
   <img src="/assets/images/driveways/IMG_0366.jpg" alt="Residential project patio">
-  <img src="/assets/images/driveways/WhatsApp Image 2026-06-04 at 07.55.299.jpeg" alt="Residential walkway">
+  <img src="/assets/images/driveways/WhatsApp-Image-2026-06-04-at-07.55.299.jpeg" alt="Residential walkway">
 </div>
 
 ### What We Offer
