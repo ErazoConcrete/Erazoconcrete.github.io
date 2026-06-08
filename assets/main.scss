@@ -81,6 +81,16 @@ $text-color: #2d3748 !default; // Corporate Dark Slate
   }
 }
 
+// Image Galleries
+.image-gallery {
+  width: 100%;
+  img {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+}
+
 // Grids for Services and Projects
 .services-grid, .projects-grid {
   display: grid;

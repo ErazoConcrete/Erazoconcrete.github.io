@@ -42,11 +42,15 @@
         let currentIndex = 0;
         const images = gallery.querySelectorAll('img');
         if (images.length > 1) {
+          // Hide extra images immediately on load
+          images.forEach((img, idx) => {
+            img.style.display = idx === 0 ? 'block' : 'none';
+          });
           setInterval(() => {
+            currentIndex = (currentIndex + 1) % images.length;
             images.forEach((img, idx) => {
               img.style.display = idx === currentIndex ? 'block' : 'none';
             });
-            currentIndex = (currentIndex + 1) % images.length;
           }, 4000);
         }
       });
