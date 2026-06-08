@@ -23,10 +23,10 @@ title: Home
   <div class="services-grid">
     <div class="service-card" id="commercial-installation">
       <div class="image-gallery">
-        <img src="/assets/images/foundations/06-05-2026-10-15-26.jpeg" alt="Commercial installation">
-        <img src="/assets/images/foundations/WhatsApp-Image-2026-06-03-at-15.31.10.jpeg" alt="Commercial installation project">
-        <img src="/assets/images/industrial/WhatsApp-Image-2026-06-01-at-15.31.19-(1).jpeg" alt="Commercial installation work">
-        <img src="/assets/images/industrial/WhatsApp-Image-2026-06-01-at-15.42.06-(1).jpeg" alt="Commercial construction installation">
+        <img src="/assets/images/foundations/06-05-2026%2010-15-26.jpeg" alt="Commercial installation">
+        <img src="/assets/images/foundations/2026-06-03-at%2015.31.10.jpeg" alt="Commercial installation project">
+        <img src="/assets/images/industrial/2026-06-01-15.31.19(1).jpeg" alt="Commercial installation work">
+        <img src="/assets/images/industrial/2026-06-01-15.42.06(1).jpeg" alt="Commercial construction installation">
       </div>
       <div class="service-content">
         <h3>Commercial Installation</h3>
@@ -37,9 +37,9 @@ title: Home
 
     <div class="service-card" id="residential-projects">
       <div class="image-gallery">
-        <img src="/assets/images/residential/WhatsApp-Image-2026-06-01-at-15.43.15.jpeg" alt="Residential project patio">
-        <img src="/assets/images/residential/WhatsApp-Image-2026-06-03-at-17.12.30.jpeg" alt="Residential walkway">
-        <img src="/assets/images/residential/WhatsApp-Image-2026-06-04-at-16.13.408887.jpeg" alt="Residential outdoor space">
+        <img src="/assets/images/residential/2026-06-06at15.43.15.jpeg" alt="Residential project patio">
+        <img src="/assets/images/residential/WhatsAppmage2026-06-03at17.12.30.jpeg" alt="Residential walkway">
+        <img src="/assets/images/residential/WhatsAppImage%202026-06-04at16.13.408887.jpeg" alt="Residential outdoor space">
       </div>
       <div class="service-content">
         <h3>Residential Projects</h3>
