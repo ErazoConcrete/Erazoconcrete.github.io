@@ -23,7 +23,7 @@ title: Home
   <div class="services-grid">
     <div class="service-card" id="commercial-installation">
       <div class="image-gallery">
-        <img src="/assets/images/foundations/06-05-2026 10-15-26.jpeg" alt="Commercial installation">
+        <img src="/assets/images/foundations/06-05-2026-10-15-26.jpeg" alt="Commercial installation">
         <img src="/assets/images/foundations/WhatsApp Image 2026-06-03 at 15.31.10.jpeg" alt="Commercial installation project">
         <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.31.19 (1).jpeg" alt="Commercial installation work">
         <img src="/assets/images/industrial/WhatsApp Image 2026-06-01 at 15.42.06 (1).jpeg" alt="Commercial construction installation">
