@@ -1756,14 +1756,14 @@ a:hover {
 }
 
 .cta-section h2 {
-  color: var(--white);
+  color: #111111;
   border: none;
   margin: 0 0 12px 0;
   font-size: 2rem;
 }
 
 .cta-section p {
-  color: rgba(255, 255, 255, 0.85);
+  color: #222222;
   max-width: 600px;
   margin: 0 auto 28px;
   font-size: 1.05rem;
@@ -1771,11 +1771,11 @@ a:hover {
 
 /* Light mode text visibility */
 [data-theme="light"] .cta-section h2 {
-  color: var(--white);
+  color: #111111;
 }
 
 [data-theme="light"] .cta-section p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #222222;
 }
 
 .cta-actions {

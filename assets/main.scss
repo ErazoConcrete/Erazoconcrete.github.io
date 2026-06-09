@@ -178,11 +178,11 @@ section .cta-section {
   h2, p {
     color: #000000 !important;
   }
+}
 
-  @media (prefers-color-scheme: dark) {
-    background-color: #2d3748;
-    h2, p {
-      color: #ffffff !important;
-    }
+[data-theme="dark"] section .cta-section {
+  background-color: #2d3748;
+  h2, p {
+    color: #ffffff !important;
   }
 }
