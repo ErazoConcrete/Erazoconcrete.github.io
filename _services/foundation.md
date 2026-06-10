@@ -14,10 +14,16 @@ category: foundation
 Your building's foundation is its most critical element. We provide engineered concrete installation work and support for commercial construction projects.
 
 <div class="image-gallery">
-  <img src="/assets/images/foundations/06-05-2026-10-15-26.jpeg" alt="Commercial installation">
-  <img src="/assets/images/foundations/WhatsApp-Image-2026-06-03-at-15.31.10.jpeg" alt="Commercial foundation project">
-  <img src="/assets/images/industrial/WhatsApp-Image-2026-06-01-at-15.31.19-(1).jpeg" alt="Commercial installation work">
-  <img src="/assets/images/industrial/WhatsApp-Image-2026-06-01-at-15.42.06-(1).jpeg" alt="Commercial construction installation">
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/images/foundations/' %}
+      <img src="{{ file.path | relative_url }}" alt="Commercial foundation project">
+    {% endif %}
+  {% endfor %}
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/images/industrial/' %}
+      <img src="{{ file.path | relative_url }}" alt="Industrial project">
+    {% endif %}
+  {% endfor %}
 </div>
 
 ### Foundation Services

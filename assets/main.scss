@@ -182,7 +182,17 @@ section .cta-section {
 
 [data-theme="dark"] section .cta-section {
   background-color: #2d3748;
-  h2, p {
+
+  h2,
+  p,
+  .btn {
     color: #ffffff !important;
   }
+}
+
+[data-theme="light"] .footer-section p,
+[data-theme="light"] .footer-section p strong,
+[data-theme="light"] .footer-section p a,
+[data-theme="light"] .footer-section a {
+  color: #000000 !important;
 }

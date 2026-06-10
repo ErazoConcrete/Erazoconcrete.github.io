@@ -14,8 +14,11 @@ category: driveway
 We provide concrete patios, walkways, and exterior surfaces that support project momentum and long-term use.
 
 <div class="image-gallery">
-  <img src="/assets/images/driveways/IMG_0366.jpg" alt="Residential project patio">
-  <img src="/assets/images/driveways/WhatsApp-Image-2026-06-04-at-07.55.299.jpeg" alt="Residential walkway">
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/images/driveways/' %}
+      <img src="{{ file.path | relative_url }}" alt="Residential project">
+    {% endif %}
+  {% endfor %}
 </div>
 
 ### What We Offer
