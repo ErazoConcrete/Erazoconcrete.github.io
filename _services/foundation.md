@@ -6,12 +6,10 @@ category: foundation
 
 <div class="hero">
   <h1>Commercial Installation</h1>
-  <p>Concrete installation services designed to keep your project on schedule.</p>
+  <p>Strong foundations and flatwork for when it absolutely has to be done right.</p>
 </div>
 
-## Commercial Installation Solutions
-
-Your building's foundation is its most critical element. We provide engineered concrete installation work and support for commercial construction projects.
+Every great building starts with the ground it stands on. When it comes to commercial pours, we believe in doing it right the first time. We work alongside general contractors and engineers to lay concrete that is strong, true, and ready for whatever goes on top.
 
 <div class="image-gallery">
   {% for file in site.static_files %}
@@ -26,42 +24,21 @@ Your building's foundation is its most critical element. We provide engineered c
   {% endfor %}
 </div>
 
-### Foundation Services
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin: 50px 0;">
+  <div style="border: 2px solid var(--text-color); border-radius: 12px; padding: 25px; box-shadow: 6px 6px 0px var(--text-color); background: var(--light-bg);">
+    <h3 style="margin-top: 0; font-family: Georgia, serif; font-style: italic;">Heavy Duty Support</h3>
+    <p>Whether it's a warehouse slab, a new storefront, or deep structural footings, we bring the crew and the expertise to handle large-scale commercial mud.</p>
+  </div>
+  <div style="border: 2px solid var(--text-color); border-radius: 12px; padding: 25px; box-shadow: 6px 6px 0px var(--text-color); background: var(--light-bg);">
+    <h3 style="margin-top: 0; font-family: Georgia, serif; font-style: italic;">By The Book</h3>
+    <p>We work closely with structural engineers and city inspectors. Everything is tested, fully compliant with local codes, and built exactly to spec.</p>
+  </div>
+  <div style="border: 2px solid var(--text-color); border-radius: 12px; padding: 25px; box-shadow: 6px 6px 0px var(--text-color); background: var(--light-bg);">
+    <h3 style="margin-top: 0; font-family: Georgia, serif; font-style: italic;">Our Guarantee</h3>
+    <p>We stand by our work. Every commercial foundation we pour is backed by a rock-solid 1-year warranty to protect your investment.</p>
+  </div>
+</div>
 
-- **New Foundation Installation** - For commercial construction projects
-- **Reinforced Concrete** - Engineered to exact specifications
-- **Building Foundations** - Durable foundation concrete
-- **Engineered Design** - Structural engineering consultation
-- **Quality Assurance** - Full inspection and testing compliance
-
-### Our Expertise
-
-✓ Structural engineering consultation  
-✓ Building code compliance  
-✓ Proper grading and drainage design  
-✓ Quality concrete mixes  
-✓ Expert installation and finishing  
-✓ 1-Year Warranty included  
-
-## Our Foundation Process
-1.  **Engineering & Assessment:** We review plans and site conditions to ensure full compliance and structural integrity.
-2.  **Site Preparation:** Meticulous excavation, grading, and base preparation for a stable foundation.
-3.  **Concrete Installation:** A precise pour using high-grade materials and expert techniques.
-4.  **Quality Assurance:** We conduct thorough testing, inspection, and certification to guarantee strength and compliance.
-
-## Why Reliable Foundation Work Matters
-
-✓ Prevents costly future damage  
-✓ Ensures structural integrity  
-✓ Meets all building codes  
-✓ Proper load distribution  
-✓ Long-term stability and safety  
-✓ Insurance and compliance protection  
-
-## 1-Year Warranty
-
-All foundation work is backed by our **comprehensive 1-year warranty**, ensuring complete protection for your investment.
-
-## Ready for Your Commercial Project?
+Got a set of blueprints? Let's get to work.
 
 [Get a Foundation Quote](/contact/){: .btn}

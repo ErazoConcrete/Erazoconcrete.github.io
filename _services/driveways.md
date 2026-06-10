@@ -6,12 +6,10 @@ category: driveway
 
 <div class="hero">
   <h1>Residential Projects</h1>
-  <p>Concrete patios, walkways, and exterior surfaces designed to support your project needs.</p>
+  <p>Driveways, patios, and walkways poured with traditional care and honest labor.</p>
 </div>
 
-## Residential Projects Overview
-
-We provide concrete patios, walkways, and exterior surfaces that support project momentum and long-term use.
+A good driveway or patio is the welcoming mat to your home. We've been pouring residential concrete with the kind of care that treats your yard like our own. No rushed jobs, just solid, honest flatwork meant to last for generations.
 
 <div class="image-gallery">
   {% for file in site.static_files %}
@@ -21,30 +19,21 @@ We provide concrete patios, walkways, and exterior surfaces that support project
   {% endfor %}
 </div>
 
-### What We Offer
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin: 50px 0;">
+  <div style="border: 2px solid var(--text-color); border-radius: 12px; padding: 25px; box-shadow: 6px 6px 0px var(--text-color); background: var(--light-bg);">
+    <h3 style="margin-top: 0; font-family: Georgia, serif; font-style: italic;">Patios & Walkways</h3>
+    <p>A place for family gatherings and quiet mornings. We shape and pour custom outdoor living spaces that become part of the home.</p>
+  </div>
+  <div style="border: 2px solid var(--text-color); border-radius: 12px; padding: 25px; box-shadow: 6px 6px 0px var(--text-color); background: var(--light-bg);">
+    <h3 style="margin-top: 0; font-family: Georgia, serif; font-style: italic;">Built to Weather</h3>
+    <p>We use premium mixes that stand up to the freezing winters and hot summers. No cutting corners on the sub-base or the finish.</p>
+  </div>
+  <div style="border: 2px solid var(--text-color); border-radius: 12px; padding: 25px; box-shadow: 6px 6px 0px var(--text-color); background: var(--light-bg);">
+    <h3 style="margin-top: 0; font-family: Georgia, serif; font-style: italic;">The Old-School Way</h3>
+    <p>We evaluate the soil, lay down a proper base, pour it smooth, and cure it right. A straightforward process with no hidden surprises.</p>
+  </div>
+</div>
 
-- **Patio and Walkway Installation** - Custom-designed exterior spaces and pathways
-- **Durable Concrete Mix** - Premium concrete blend for long-lasting outdoor surfaces
-- **Consistent Finishing** - Smooth, attractive finishes for strong site performance
-- **Proper Drainage** - Engineered to handle runoff and preserve surface integrity
-- **Surface Protection** - Protective treatments to extend service life
-
-### Benefits of Quality Installation
-
-✓ Skilled craftsmanship and reliable sequencing  
-✓ Proper grading and drainage planning  
-✓ Quality materials and long-term performance  
-✓ Durable finishes for ongoing use  
-✓ Strong support for project timelines  
-
-## Process
-
-1. **Site Assessment** - We evaluate soil conditions and design requirements
-2. **Preparation** - Proper base preparation ensures longevity
-3. **Concrete Pour** - High-quality concrete applied by skilled technicians
-4. **Finishing** - Smooth, attractive surface finishing
-5. **Curing** - Proper curing time for maximum strength
-
-## Ready to Transform Your Exterior Surfaces?
+Ready to talk about your yard? Give us a shout and we'll come take a look.
 
 [Get a Free Quote](/contact/){: .btn}

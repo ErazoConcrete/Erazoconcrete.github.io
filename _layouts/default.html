@@ -94,13 +94,29 @@
       }
     });
   </script>
+  <style>
+    /* Overrides for a simple, non-shiny bubble button */
+    .btn, .nav-link--cta {
+      background-image: none !important;
+      background-color: var(--accent-color) !important;
+      border-radius: 50px !important;
+      border: none !important;
+      box-shadow: none !important;
+      transition: opacity 0.2s ease !important;
+    }
+    .btn:hover, .nav-link--cta:hover {
+      opacity: 0.85 !important;
+      transform: none !important;
+      box-shadow: none !important;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <div class="header-content site-brand">
         <a href="{{ '/' | relative_url }}" class="site-logo-link">
-          <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo">
+          <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo" style="border-radius: 12px; -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%); mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);">
         </a>
         <div>
           <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
@@ -110,6 +126,7 @@
       <nav class="site-nav">
         <ul class="nav-list">
           <li><a href="{{ '/' | relative_url }}" class="nav-link">Home</a></li>
+          <li><a href="{{ '/projects/' | relative_url }}" class="nav-link">Projects</a></li>
           <li><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li>
           <li><a href="{{ '/contact/' | relative_url }}" class="nav-link nav-link--cta">Get Quote</a></li>
           <li class="theme-toggle-container">
