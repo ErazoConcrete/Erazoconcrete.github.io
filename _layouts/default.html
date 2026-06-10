@@ -9,7 +9,7 @@
   <!-- Google Font to match the logo's style -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
   <!-- Dark Mode Theme Script -->
   <script>
     (function() {
@@ -113,7 +113,27 @@
       transform: none !important;
       box-shadow: none !important;
     }
-    /* Style to match the company name font from the logo */
+    /* Remove shiny overlay from cards in dark mode */
+    [data-theme="dark"] .service-card::after,
+    [data-theme="dark"] .trust-card::after,
+    [data-theme="dark"] .content-panel::after,
+    [data-theme="dark"] .project-card::after,
+    [data-theme="dark"] .hero::after {
+      display: none !important;
+    }
+
+    /* --- Font System --- */
+    /* 1. Body Font */
+    body {
+      font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    /* 2. Main Headings Font */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Oswald', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    /* 3. Special Font for Company Name (Overrides main headings) */
     .site-header .site-title a,
     .site-footer .footer-section h3 {
       font-family: 'Special Elite', 'Courier New', Courier, monospace;
@@ -121,6 +141,7 @@
       font-weight: 400; /* Use the font's normal weight */
       letter-spacing: 1px; /* Add a little space between letters */
     }
+    /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
   </style>
 </head>
 <body>

@@ -3,7 +3,7 @@ layout: default
 title: Get a Quote
 ---
 
-<section class="page-hero">
+<section class="page-hero" style="display: flex; flex-direction: column; justify-content: center; min-height: 250px;">
   <div class="page-hero-content">
     <h1>Contact Erazo Concrete</h1>
     <p>Connect with us for a fast quote request and project review.</p>
