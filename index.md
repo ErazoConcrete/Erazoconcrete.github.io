@@ -3,6 +3,15 @@ layout: default
 title: Home
 ---
 
+<style>
+  /* Removes misaligned borders and shadows to make the boxes sit perfectly flush */
+  .hero, .hero-content, .service-card {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+</style>
+
 <div class="hero">
   <div class="hero-content">
     <h1>Concrete Solutions</h1>

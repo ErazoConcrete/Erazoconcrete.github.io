@@ -6,6 +6,10 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Google Font to match the logo's style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
   <!-- Dark Mode Theme Script -->
   <script>
     (function() {
@@ -108,6 +112,14 @@
       opacity: 0.85 !important;
       transform: none !important;
       box-shadow: none !important;
+    }
+    /* Style to match the company name font from the logo */
+    .site-header .site-title a,
+    .site-footer .footer-section h3 {
+      font-family: 'Special Elite', 'Courier New', Courier, monospace;
+      text-transform: uppercase;
+      font-weight: 400; /* Use the font's normal weight */
+      letter-spacing: 1px; /* Add a little space between letters */
     }
   </style>
 </head>
