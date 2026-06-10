@@ -37,8 +37,8 @@ A showcase of our craftsmanship. As projects are completed, photos will be uploa
   {% for folder in folders_array %}
     {% if folder != "" %}
       <div class="project-area" style="margin-bottom: 60px; padding: 30px; background: var(--light-bg); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-        <h2 style="margin-top: 0; text-transform: capitalize; color: var(--text-color);">{{ folder | replace: '-', ' ' | replace: '_', ' ' }}</h2>
-        <div class="project-image-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; margin-top: 20px;">
+        <h2 style="margin-top: 0; text-transform: capitalize; color: var(--text-color);">Current - {{ folder | replace: '-', ' ' | replace: '_', ' ' }}</h2>
+        <div class="project-carousel" style="display: grid; gap: 15px; margin-top: 20px; min-height: 250px;">
           {% assign folder_path = '/assets/images/projects/' | append: folder | append: '/' %}
           {% for file in site.static_files %}
             {% if file.path contains folder_path %}
