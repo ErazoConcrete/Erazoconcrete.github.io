@@ -1124,10 +1124,10 @@ li {
   --text-color: #111111;
   --text-light: #444444;
   --white: #ffffff;
-  --glossy-gradient: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.1) 49%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
-  --btn-gradient: linear-gradient(180deg, #ff9933 0%, #ff6600 49%, #cc5200 50%, #ea660b 100%);
-  --btn-hover-gradient: linear-gradient(180deg, #ffaa44 0%, #ff7711 49%, #dd6300 50%, #fb771c 100%);
-  --header-gradient: linear-gradient(180deg, #184c82 0%, #0d3b66 49%, #08294a 50%, #0d3b66 100%);
+  --glossy-gradient: linear-gradient(180deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 100%);
+  --btn-gradient: linear-gradient(180deg, #ffaa44 0%, #ea660b 100%);
+  --btn-hover-gradient: linear-gradient(180deg, #ffbb66 0%, #fb771c 100%);
+  --header-gradient: linear-gradient(180deg, #184c82 0%, #08294a 100%);
 }
 
 [data-theme="dark"] {
@@ -1142,7 +1142,7 @@ li {
   --white: #000000;
   --text-light: #aaaaaa;
   --white: #15202b;
-  --header-gradient: linear-gradient(180deg, #1c2938 0%, #15202b 49%, #0b1117 50%, #15202b 100%);
+  --header-gradient: linear-gradient(180deg, #1c2938 0%, #0b1117 100%);
 }
 
 body, html {
@@ -1242,7 +1242,7 @@ a:hover {
   top: 0;
   left: 0;
   right: 0;
-  height: 50%;
+  height: 100%;
   background: var(--glossy-gradient);
   pointer-events: none;
 }

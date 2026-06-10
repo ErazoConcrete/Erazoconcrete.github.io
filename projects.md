@@ -13,10 +13,8 @@ title: Our Work
 
 <div class="hero">
   <h1>Our Work</h1>
-  <p>Showcase of our pours and completed concrete projects</p>
+  <p>A showcase of our craftsmanship. As projects are completed, photos will be uploaded here to demonstrate our commitment to quality and client satisfaction.</p>
 </div>
-
-A showcase of our craftsmanship. As projects are completed, photos will be uploaded here to demonstrate our commitment to quality and client satisfaction.
 
 {% assign folder_names = "" %}
 {% for file in site.static_files %}
