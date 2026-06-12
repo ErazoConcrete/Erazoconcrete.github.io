@@ -201,13 +201,23 @@
   .site-header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 25px; /* Space between logo and text block */
   }
-  .header-content.site-brand {
+  .header-text-container {
     display: flex;
-    align-items: center;
-    gap: 15px; /* Moves company name left, closer to the logo */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .site-brand-text {
+    margin-bottom: 8px; /* Space between tagline and nav */
+  }
+  .site-header .site-title {
+    margin: 0;
+    margin-left: -4px; /* Puts the company name a little to the left */
+  }
+  .site-header .site-tagline {
+    margin: 0;
   }
   .site-logo-link {
     margin-left: -20px; /* Pushes the logo to the left */
@@ -220,8 +230,8 @@
   .site-logo {
     border-radius: 50% !important;
     aspect-ratio: 1 / 1;
-    width: 115px !important; /* Made bigger */
-    height: 115px !important;
+    width: 150px !important; /* Made even bigger */
+    height: 150px !important;
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
@@ -232,23 +242,35 @@
     -webkit-mask-image: radial-gradient(closest-side, black 55%, transparent 100%);
     mask-image: radial-gradient(closest-side, black 55%, transparent 100%);
   }
+  /* Fix nav alignment */
+  .site-nav {
+    margin: 0 !important;
+  }
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+  }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="header-content site-brand">
-        <a href="{{ '/' | relative_url }}" class="site-logo-link">
-          <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo">
-        </a>
-        <div>
+      <a href="{{ '/' | relative_url }}" class="site-logo-link">
+        <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo">
+      </a>
+      <div class="header-text-container">
+        <div class="site-brand-text">
           <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
           <p class="site-tagline">Building foundations for the future</p>
         </div>
-      </div>
-      <nav class="site-nav">
-        <ul class="nav-list">
+        <nav class="site-nav">
+          <ul class="nav-list">
           <li><a href="{{ '/' | relative_url }}" class="nav-link">Home</a></li>
           <li><a href="{{ '/projects/' | relative_url }}" class="nav-link">Projects</a></li>
           <li><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li>
