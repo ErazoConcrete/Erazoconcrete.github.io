@@ -53,6 +53,6 @@ title: Our Work
 
 ## Ready to Start Your Project?
 
-Let us bring your vision to life with reliable concrete work.
+Let us help bring your vision to life.
 
 [Get Your Free Quote](/contact/){: .btn}
