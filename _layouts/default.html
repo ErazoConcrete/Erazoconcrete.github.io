@@ -201,7 +201,6 @@
   .site-header .container {
     display: flex;
     align-items: center;
-    position: relative; /* Anchors the absolutely positioned logo */
     min-height: 150px; /* Keeps the header strip tall enough for the logo */
   }
   .header-text-container {
@@ -228,14 +227,13 @@
     padding: 0 !important;
   }
   .site-logo-link {
-    position: absolute; /* Takes logo completely out of layout flow */
-    left: -130px; /* Pushes logo completely past the left edge */
-    top: 50%;
-    transform: translateY(-50%); /* Centers vertically */
+    margin-left: -170px !important; /* Pushes logo left */
+    margin-right: 20px !important;  /* Balances width to keep text strictly left-aligned */
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
     display: block;
+    flex-shrink: 0; /* Prevents logo from squishing */
     z-index: 10;
   }
   /* 5. Perfect Circle Logo Styling */
@@ -246,13 +244,16 @@
     height: 150px !important;
     border: none !important;
     box-shadow: none !important;
-    background: transparent !important;
+    background: #ffffff !important; /* Solid white background */
     padding: 0 !important;
     margin: 0 !important;
     overflow: hidden;
     object-fit: cover;
-    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 65%);
-    mask-image: radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 65%);
+    /* Keeps the center 50% solid so the logo doesn't fade, gently fades the outer edges */
+    -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
+    mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
   }
   /* Fix nav alignment */
   .site-nav {
@@ -269,10 +270,9 @@
   }
   @media (max-width: 900px) {
     .site-logo-link {
-      position: relative; /* Puts it back in flow for mobile */
-      left: -15px; /* Keeps logo visible on smaller mobile screens */
-      transform: none; /* Removes vertical centering */
-      margin-bottom: 15px;
+      margin-left: -15px !important; /* Keeps logo visible on smaller mobile screens */
+      margin-right: 15px !important;
+      margin-bottom: 15px !important;
     }
   }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
