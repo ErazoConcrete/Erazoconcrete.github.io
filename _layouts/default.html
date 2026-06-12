@@ -201,7 +201,6 @@
   .site-header .container {
     display: flex;
     align-items: center;
-    gap: 25px; /* Space between logo and text block */
   }
   .header-text-container {
     display: flex;
@@ -214,13 +213,14 @@
   }
   .site-header .site-title {
     margin: 0;
-    margin-left: -4px; /* Puts the company name a little to the left */
+    margin-left: -8px; /* Puts the company name a little to the left */
   }
   .site-header .site-tagline {
     margin: 0;
   }
   .site-logo-link {
-    margin-left: -20px; /* Pushes the logo to the left */
+    margin-left: -170px; /* Pushes logo completely past the left edge */
+    margin-right: 20px;  /* Neutralizes width so text aligns exactly with the main container */
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
@@ -239,8 +239,8 @@
     margin: 0 !important;
     overflow: hidden;
     object-fit: cover;
-    -webkit-mask-image: radial-gradient(closest-side, black 55%, transparent 100%);
-    mask-image: radial-gradient(closest-side, black 55%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle at center, black 30%, transparent 75%);
+    mask-image: radial-gradient(circle at center, black 30%, transparent 75%);
   }
   /* Fix nav alignment */
   .site-nav {
@@ -254,6 +254,11 @@
     gap: 20px;
     flex-wrap: wrap;
     list-style: none;
+  }
+  @media (max-width: 900px) {
+    .site-logo-link {
+      margin-left: -15px; /* Keeps logo visible on smaller mobile screens */
+    }
   }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
   </style>
