@@ -197,6 +197,16 @@
       font-weight: 400; /* Use the font's normal weight */
       letter-spacing: 1px; /* Add a little space between letters */
     }
+  /* 4. Logo Styling */
+  .site-logo {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 80px; /* Guarantees a perfectly smooth circle */
+    height: 80px;
+    object-fit: cover;
+    -webkit-mask-image: radial-gradient(circle, black 65%, transparent 100%);
+    mask-image: radial-gradient(circle, black 65%, transparent 100%);
+  }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
   </style>
 </head>
@@ -259,8 +269,8 @@
         <div class="footer-section">
           <h4>Contact</h4>
           <p>
-            <strong>Phone:</strong> <a href="tel:3392317006">339 231 7006</a><br>
-            <strong>Email:</strong> <a href="mailto:estimating@erazoconcrete.com">estimating@erazoconcrete.com</a>
+            <strong>Phone:</strong> <a href="tel:{{ site.phone | remove: ' ' }}">{{ site.phone }}</a><br>
+            <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </p>
         </div>
         <div class="footer-section">
