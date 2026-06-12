@@ -201,6 +201,8 @@
   .site-header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Pushes text left, logo right */
+    gap: 30px;
     min-height: 150px; /* Keeps the header strip tall enough for the logo */
   }
   .header-text-container {
@@ -216,7 +218,6 @@
   }
   .site-header .site-title {
     margin: 0 !important;
-    margin-left: -16px !important; /* Forces the company name strictly to the left */
     padding: 0 !important;
   }
   .site-header .site-title a {
@@ -227,8 +228,6 @@
     padding: 0 !important;
   }
   .site-logo-link {
-    margin-left: -170px !important; /* Pushes logo left */
-    margin-right: 20px !important;  /* Balances width to keep text strictly left-aligned */
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
@@ -238,7 +237,6 @@
   }
   /* 5. Perfect Circle Logo Styling */
   .site-logo {
-    border-radius: 50% !important;
     aspect-ratio: 1 / 1;
     width: 150px !important; /* Made even bigger */
     height: 150px !important;
@@ -247,11 +245,10 @@
     background: #ffffff !important; /* Solid white background */
     padding: 0 !important;
     margin: 0 !important;
-    overflow: hidden;
     object-fit: cover;
-    /* Keeps the center 50% solid so the logo doesn't fade, gently fades the outer edges */
-    -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
-    mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
+    /* A truly soft fade that finishes before the edge of the square container */
+    -webkit-mask-image: radial-gradient(circle, black 40%, transparent 68%);
+    mask-image: radial-gradient(circle, black 40%, transparent 68%);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
   }
@@ -269,10 +266,16 @@
     list-style: none;
   }
   @media (max-width: 900px) {
-    .site-logo-link {
-      margin-left: -15px !important; /* Keeps logo visible on smaller mobile screens */
-      margin-right: 15px !important;
-      margin-bottom: 15px !important;
+    .site-header .container {
+      flex-direction: column-reverse; /* Stacks logo on top of text for mobile */
+      text-align: center;
+    }
+    .header-text-container, .site-brand-text {
+      align-items: center;
+      text-align: center;
+    }
+    .nav-list {
+      justify-content: center;
     }
   }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
@@ -281,9 +284,6 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="{{ '/' | relative_url }}" class="site-logo-link">
-        <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo">
-      </a>
       <div class="header-text-container">
         <div class="site-brand-text">
           <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
@@ -317,6 +317,10 @@
           </li>
         </ul>
       </nav>
+    </div>
+      <a href="{{ '/' | relative_url }}" class="site-logo-link">
+        <img src="/assets/LOGOTIPO-Sien-FONDO.jpeg" alt="{{ site.title }} logo" class="site-logo">
+      </a>
     </div>
   </header>
 
