@@ -36,4 +36,4 @@ A good driveway or patio is the welcoming mat to your home. We've been pouring r
 
 Ready to talk about your yard? Give us a shout and we'll come take a look.
 
-[Get a Free Quote](/contact/){: .btn}
+[Get Your Quote Now](/contact/){: .btn}

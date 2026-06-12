@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preload" href="/assets/fonts/frontiersman.otf" as="font" type="font/otf" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <!-- Google Font to match the logo's style -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -187,7 +188,10 @@
     }
     /* 3. Special Font for Company Name (Overrides main headings) */
     .site-header .site-title a,
-    .site-footer .footer-section h3 {
+    .site-footer .footer-section h3,
+    .site-footer .footer-section h4,
+    .site-footer .footer-section a,
+    .site-footer .footer-links a {
       font-family: 'Frontiersman', 'Georgia', 'Times New Roman', serif;
       text-transform: uppercase;
       font-weight: 400; /* Use the font's normal weight */

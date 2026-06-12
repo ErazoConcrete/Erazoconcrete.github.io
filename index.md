@@ -17,7 +17,7 @@ title: Home
     <h1>Concrete Solutions</h1>
     <p>Commercial concrete solutions focused on quality, durability, and on-time project execution.</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn">Request Quote</a>
+      <a href="/contact/" class="btn">Get Your Quote Now</a>
       <a href="#services" class="btn btn-secondary">View Services</a>
     </div>
   </div>
@@ -70,7 +70,7 @@ title: Home
 <section style="background: linear-gradient(to bottom, transparent, var(--light-bg) 25%, var(--light-bg) 75%, transparent); padding: 120px 20px; text-align: center; margin: 60px 0;">
   <div style="max-width: 600px; margin: 0 auto;">
     <h2 style="font-family: Georgia, serif; font-style: italic; margin-top: 0;">Start Your Project</h2>
-    <p style="margin-bottom: 30px; line-height: 1.6;">Get a free quote and project assessment from our team.</p>
-    <a href="/contact/" class="btn">Request a Quote</a>
+    <p style="margin-bottom: 30px; line-height: 1.6;">Get your quote now and project assessment from our team.</p>
+    <a href="/contact/" class="btn">Get Your Quote Now</a>
   </div>
 </section>

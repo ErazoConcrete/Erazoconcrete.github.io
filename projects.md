@@ -55,4 +55,4 @@ title: Our Work
 
 Let us help bring your vision to life.
 
-[Get Your Free Quote](/contact/){: .btn}
+[Get Your Quote Now](/contact/){: .btn}

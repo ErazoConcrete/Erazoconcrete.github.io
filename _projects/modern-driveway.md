@@ -73,4 +73,4 @@ This was a large-scale foundation project for a new 12,000 sq ft industrial manu
 
 ## Ready for Your Industrial Project?
 
-[Get Your Quote](/contact/){: .btn}
+[Get Your Quote Now](/contact/){: .btn}
