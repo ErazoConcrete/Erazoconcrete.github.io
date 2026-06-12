@@ -164,6 +164,16 @@
     }
 
     /* --- Font System --- */
+    @font-face {
+      font-family: 'Frontiersman';
+      src: url('/assets/fonts/frontiersman.woff2') format('woff2'),
+           url('/assets/fonts/frontiersman.woff') format('woff'),
+           url('/assets/fonts/frontiersman.ttf') format('truetype'),
+           url('/assets/fonts/frontiersman.otf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
     /* 1. Body Font */
     body {
       font-family: 'Lora', 'Times New Roman', Times, serif;
@@ -178,7 +188,7 @@
     /* 3. Special Font for Company Name (Overrides main headings) */
     .site-header .site-title a,
     .site-footer .footer-section h3 {
-      font-family: 'Special Elite', 'Courier New', Courier, monospace;
+      font-family: 'Frontiersman', 'Georgia', 'Times New Roman', serif;
       text-transform: uppercase;
       font-weight: 400; /* Use the font's normal weight */
       letter-spacing: 1px; /* Add a little space between letters */

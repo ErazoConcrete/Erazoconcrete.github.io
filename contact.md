@@ -21,6 +21,8 @@ title: Get a Quote
   <div class="content-panel" id="contact-form">
     <h2>Send a Message</h2>
     <form action="https://formspree.io/f/xkoeeobg" method="POST">
+      <!-- Redirects to your custom Thank You page after submission -->
+      <input type="hidden" name="_next" value="https://erazoconcrete.github.io/thanks/">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your Name" required>
