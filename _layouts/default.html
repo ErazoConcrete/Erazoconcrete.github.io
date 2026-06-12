@@ -197,17 +197,40 @@
       font-weight: 400; /* Use the font's normal weight */
       letter-spacing: 1px; /* Add a little space between letters */
     }
-  /* 4. Logo Styling */
+  /* 4. Header Alignment Fixes (Align E and H horizontally) */
+  .site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .header-content.site-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Moves company name left, closer to the logo */
+  }
+  .site-logo-link {
+    margin-left: -20px; /* Pushes the logo to the left */
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    display: block;
+  }
+  /* 5. Perfect Circle Logo Styling */
   .site-logo {
-    border-radius: 50%;
+    border-radius: 50% !important;
     aspect-ratio: 1 / 1;
-    width: 80px; /* Guarantees a perfectly smooth circle */
-    height: 80px;
-      border: none;
-      overflow: hidden;
+    width: 115px !important; /* Made bigger */
+    height: 115px !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
     object-fit: cover;
-      -webkit-mask-image: radial-gradient(circle at center, black 45%, transparent 80%);
-      mask-image: radial-gradient(circle at center, black 45%, transparent 80%);
+    -webkit-mask-image: radial-gradient(closest-side, black 55%, transparent 100%);
+    mask-image: radial-gradient(closest-side, black 55%, transparent 100%);
   }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
   </style>
