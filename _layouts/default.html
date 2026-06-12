@@ -201,30 +201,42 @@
   .site-header .container {
     display: flex;
     align-items: center;
+    position: relative; /* Anchors the absolutely positioned logo */
+    min-height: 150px; /* Keeps the header strip tall enough for the logo */
   }
   .header-text-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    width: 100%;
   }
   .site-brand-text {
     margin-bottom: 8px; /* Space between tagline and nav */
+    text-align: left;
   }
   .site-header .site-title {
-    margin: 0;
-    margin-left: -8px; /* Puts the company name a little to the left */
+    margin: 0 !important;
+    margin-left: -16px !important; /* Forces the company name strictly to the left */
+    padding: 0 !important;
+  }
+  .site-header .site-title a {
+    padding: 0 !important;
   }
   .site-header .site-tagline {
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   .site-logo-link {
-    margin-left: -170px; /* Pushes logo completely past the left edge */
-    margin-right: 20px;  /* Neutralizes width so text aligns exactly with the main container */
+    position: absolute; /* Takes logo completely out of layout flow */
+    left: -130px; /* Pushes logo completely past the left edge */
+    top: 50%;
+    transform: translateY(-50%); /* Centers vertically */
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
     display: block;
+    z-index: 10;
   }
   /* 5. Perfect Circle Logo Styling */
   .site-logo {
@@ -239,8 +251,8 @@
     margin: 0 !important;
     overflow: hidden;
     object-fit: cover;
-    -webkit-mask-image: radial-gradient(circle at center, black 30%, transparent 75%);
-    mask-image: radial-gradient(circle at center, black 30%, transparent 75%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 65%);
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 65%);
   }
   /* Fix nav alignment */
   .site-nav {
@@ -257,7 +269,10 @@
   }
   @media (max-width: 900px) {
     .site-logo-link {
-      margin-left: -15px; /* Keeps logo visible on smaller mobile screens */
+      position: relative; /* Puts it back in flow for mobile */
+      left: -15px; /* Keeps logo visible on smaller mobile screens */
+      transform: none; /* Removes vertical centering */
+      margin-bottom: 15px;
     }
   }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
