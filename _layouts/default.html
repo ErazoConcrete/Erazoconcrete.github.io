@@ -173,7 +173,7 @@
            url('/assets/fonts/frontiersman.otf') format('opentype');
       font-weight: 400;
       font-style: normal;
-      font-display: swap;
+      font-display: block;
     }
     /* 1. Body Font */
     body {
@@ -203,9 +203,11 @@
     aspect-ratio: 1 / 1;
     width: 80px; /* Guarantees a perfectly smooth circle */
     height: 80px;
+      border: none;
+      overflow: hidden;
     object-fit: cover;
-    -webkit-mask-image: radial-gradient(circle, black 65%, transparent 100%);
-    mask-image: radial-gradient(circle, black 65%, transparent 100%);
+      -webkit-mask-image: radial-gradient(circle at center, black 45%, transparent 80%);
+      mask-image: radial-gradient(circle at center, black 45%, transparent 80%);
   }
     /* Note: The 'Georgia' font for CTAs is handled with inline styles in the markdown files, so it will override these rules correctly. */
   </style>
@@ -219,7 +221,7 @@
         </a>
         <div>
           <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-          <p class="site-tagline">{{ site.description }}</p>
+          <p class="site-tagline">Building foundations for the future</p>
         </div>
       </div>
       <nav class="site-nav">
@@ -264,7 +266,7 @@
       <div class="footer-content">
         <div class="footer-section">
           <h3>{{ site.title }}</h3>
-          <p>{{ site.description }}</p>
+          <p>Building foundations for the future</p>
         </div>
         <div class="footer-section">
           <h4>Contact</h4>
